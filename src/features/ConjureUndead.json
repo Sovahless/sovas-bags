@@ -106,9 +106,9 @@
         "profiles": [
           {
             "count": "max(1, ceil(@abilities.cha.mod / 2))",
-            "name": "Oathbreaker Skeleton",
+            "name": "Skeleton (Dungeon Master's Guide)",
             "_id": "sovaprofSkelet01",
-            "uuid": "Compendium.sovas-bags.sovas-bags-actors.Actor.sovamobSkeleton1",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgSkeleton00000",
             "level": {
               "min": null,
               "max": null
@@ -117,9 +117,31 @@
           },
           {
             "count": "max(1, ceil(@abilities.cha.mod / 2))",
-            "name": "Oathbreaker Zombie",
+            "name": "Zombie (Dungeon Master's Guide)",
             "_id": "sovaprofZombie01",
-            "uuid": "Compendium.sovas-bags.sovas-bags-actors.Actor.sovamobZombie001",
+            "uuid": "Compendium.dnd-dungeon-masters-guide.actors.Actor.dmgZombie0000000",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "max(1, ceil(@abilities.cha.mod / 2))",
+            "name": "Skeleton (SRD 2024)",
+            "_id": "sovaprofSkelSRD1",
+            "uuid": "Compendium.dnd5e.actors24.Actor.mmSkeleton000000",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "max(1, ceil(@abilities.cha.mod / 2))",
+            "name": "Zombie (SRD 2024)",
+            "_id": "sovaprofZombSRD1",
+            "uuid": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
             "level": {
               "min": null,
               "max": null
