@@ -106,9 +106,9 @@
         "profiles": [
           {
             "count": "max(1, ceil(@abilities.cha.mod / 2))",
-            "name": "Skeleton",
+            "name": "Oathbreaker Skeleton",
             "_id": "sovaprofSkelet01",
-            "uuid": "Compendium.dnd5e.actors24.Actor.mmSkeleton000000",
+            "uuid": "Compendium.sovas-bags.sovas-bags-actors.Actor.sovamobSkeleton1",
             "level": {
               "min": null,
               "max": null
@@ -117,9 +117,9 @@
           },
           {
             "count": "max(1, ceil(@abilities.cha.mod / 2))",
-            "name": "Zombie",
+            "name": "Oathbreaker Zombie",
             "_id": "sovaprofZombie01",
-            "uuid": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
+            "uuid": "Compendium.sovas-bags.sovas-bags-actors.Actor.sovamobZombie001",
             "level": {
               "min": null,
               "max": null

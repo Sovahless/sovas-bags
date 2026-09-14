@@ -52,54 +52,91 @@ async function compilePack(sourceDir, destDir, docType) {
 
   const db = new ClassicLevel(absDest, { valueEncoding: 'json' });
   await db.open();
+
   const files = fs.readdirSync(absSrc);
 
   let docCount = 0;
   let effectCount = 0;
+  let itemCount = 0;
 
   for (const f of files) {
     if (!f.endsWith('.json')) continue;
     const fullPath = path.join(absSrc, f);
     const data = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
 
+    // Sidecar files
     if (f.endsWith('.effect.json')) {
       const parentId = f.split('.')[0];
       const key = `!${docType}.effects!${parentId}.${data._id}`;
       await db.put(key, data);
       effectCount++;
-    } else {
-      if (Array.isArray(data.effects)) {
-        for (const eff of data.effects) {
-          if (typeof eff === 'object' && eff !== null && eff._id) {
-            const effKey = `!${docType}.effects!${data._id}.${eff._id}`;
-            await db.put(effKey, eff);
-            effectCount++;
-          }
+      continue;
+    }
+    if (f.endsWith('.item.json')) {
+      const parentId = f.split('.')[0];
+      const key = `!${docType}.items!${parentId}.${data._id}`;
+      await db.put(key, data);
+      itemCount++;
+      continue;
+    }
+
+    // Embedded effects
+    if (Array.isArray(data.effects)) {
+      const effectIds = [];
+      for (const eff of data.effects) {
+        if (typeof eff === 'object' && eff !== null && eff._id) {
+          const effKey = `!${docType}.effects!${data._id}.${eff._id}`;
+          await db.put(effKey, eff);
+          effectCount++;
+          effectIds.push(eff._id);
+        } else if (typeof eff === 'string') {
+          effectIds.push(eff);
         }
       }
-
-      const key = `!${docType}!${data._id}`;
-      if (!data._stats) {
-        data._stats = {
-          coreVersion: '14.367',
-          systemId: 'dnd5e',
-          systemVersion: '6.0.1',
-          createdTime: Date.now(),
-          modifiedTime: Date.now(),
-          lastModifiedBy: 'sovasbagsbuilder'
-        };
-      }
-      await db.put(key, data);
-      docCount++;
+      data.effects = effectIds;
     }
+
+    // Embedded items (for actors)
+    if (Array.isArray(data.items)) {
+      const itemIds = [];
+      for (const it of data.items) {
+        if (typeof it === 'object' && it !== null && it._id) {
+          const itKey = `!${docType}.items!${data._id}.${it._id}`;
+          await db.put(itKey, it);
+          itemCount++;
+          itemIds.push(it._id);
+        } else if (typeof it === 'string') {
+          itemIds.push(it);
+        }
+      }
+      data.items = itemIds;
+    }
+
+    const key = `!${docType}!${data._id}`;
+    if (!data._stats) {
+      data._stats = {
+        coreVersion: '14.367',
+        systemId: 'dnd5e',
+        systemVersion: '6.0.1',
+        createdTime: Date.now(),
+        modifiedTime: Date.now(),
+        lastModifiedBy: 'sovasbagsbuilder'
+      };
+    }
+    await db.put(key, data);
+    docCount++;
   }
 
   await db.close();
-  console.log(`  ✓ ${path.basename(destDir)}: ${docCount} docs, ${effectCount} effects`);
+  const subInfo = [
+    effectCount ? `${effectCount} effects` : null,
+    itemCount ? `${itemCount} items` : null
+  ].filter(Boolean).join(', ');
+  console.log(`  ✓ ${path.basename(destDir)}: ${docCount} docs${subInfo ? ' (' + subInfo + ')' : ''}`);
 }
 
 async function buildAll() {
-  console.log('=== Building Sova\\\'s Bags Compendiums ===');
+  console.log("=== Building Sova's Bags Compendiums ===");
   for (const mapping of PACK_MAPPINGS) {
     await compilePack(mapping.src, mapping.dest, mapping.docType);
   }
