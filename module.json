@@ -109,5 +109,20 @@
   },
   "url": "https://github.com/Sovahless/sovas-bags",
   "manifest": "https://raw.githubusercontent.com/Sovahless/sovas-bags/main/module.json",
-  "download": "https://github.com/Sovahless/sovas-bags/archive/refs/heads/main.zip"
+  "download": "https://github.com/Sovahless/sovas-bags/archive/refs/heads/main.zip",
+  "packFolders": [
+    {
+      "name": "Sova's Bags",
+      "color": "#6d28d9",
+      "sorting": "m",
+      "packs": [
+        "sovas-bags-classes",
+        "sovas-bags-subclasses",
+        "sovas-bags-features",
+        "sovas-bags-items",
+        "sovas-bags-spells",
+        "sovas-bags-actors"
+      ]
+    }
+  ]
 }
