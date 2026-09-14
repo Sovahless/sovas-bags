@@ -1,0 +1,228 @@
+{
+  "_id": "sovapdnAuraOfHat",
+  "name": "Aura of Hate",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You and any allied fiend or undead within your Aura of Protection gain a bonus to damage rolls equal to your Charisma modifier when making a melee attack. A creature can benefit from this feature from only one paladin at a time.</p><section class=\"secret\" id=\"secret-aura-of-hate\"><p><strong>Foundry Note</strong></p><p>This feature includes a passive effect applying the bonus damage to the Paladin's melee attacks, and an activity to grant the bonus to allied fiends and undead within the aura.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "",
+    "identifier": "aura-of-hate",
+    "activities": {
+      "sovaahactivity01": {
+        "type": "utility",
+        "_id": "sovaahactivity01",
+        "name": "Bestow Aura of Hate",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "Within Aura of Protection"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "sovaaaheffally01"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "sovaaaheffally01"
+        ]
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Aura of Hate (Self)",
+      "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnAuraOfHat",
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "flags": {},
+      "_id": "sovaaaheffself01",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "value": "+@abilities.cha.mod",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sovacngahself001"
+          },
+          {
+            "key": "system.bonuses.msak.damage",
+            "value": "+@abilities.cha.mod",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sovacngahself002"
+          }
+        ]
+      },
+      "description": "<p>Bonus to melee damage rolls equal to your Charisma modifier.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.1",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder",
+        "exportSource": null
+      },
+      "showIcon": 1,
+      "start": null,
+      "folder": null
+    },
+    {
+      "name": "Aura of Hate (Ally)",
+      "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnAuraOfHat",
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "flags": {},
+      "_id": "sovaaaheffally01",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.bonuses.mwak.damage",
+            "value": "+@origin.abilities.cha.mod",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sovacngahally001"
+          },
+          {
+            "key": "system.bonuses.msak.damage",
+            "value": "+@origin.abilities.cha.mod",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sovacngahally002"
+          }
+        ]
+      },
+      "description": "<p>Bonus to melee damage rolls equal to the Paladin's Charisma modifier while within Aura of Protection.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.1",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder",
+        "exportSource": null
+      },
+      "showIcon": 1,
+      "start": null,
+      "folder": null
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

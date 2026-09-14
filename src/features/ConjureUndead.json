@@ -1,0 +1,159 @@
+{
+  "_id": "sovapdnConjureUn",
+  "name": "Conjure Undead",
+  "type": "feat",
+  "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a Bonus Action, you can expend one use of your Channel Divinity to raise creatures from the dead to serve you. You summon a number of skeletons or zombies (your choice) equal to half your Charisma modifier rounded up (minimum of 1). The summoned creatures appear in an unoccupied space of your choice within 30 feet of you.</p><p>The creatures are allies to you and your allies. In combat, the creatures share your initiative count, but they take their turn immediately after yours. They obey your verbal commands (no action required by you). If you don’t issue any commands to them, they take the Dodge action and use their movement to avoid danger.</p><p>The summoned creatures remain for 1 minute, until they drop to 0 hit points, or until you use this feature again.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "identifier": "conjure-undead",
+    "activities": {
+      "sovacuactivity01": {
+        "type": "summon",
+        "_id": "sovacuactivity01",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "feat:channel-divinity-paladin",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "max(1, ceil(@abilities.cha.mod / 2))",
+            "type": "space",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": true
+        },
+        "profiles": [
+          {
+            "count": "max(1, ceil(@abilities.cha.mod / 2))",
+            "name": "Skeleton",
+            "_id": "sovaprofSkelet01",
+            "uuid": "Compendium.dnd5e.actors24.Actor.mmSkeleton000000",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "max(1, ceil(@abilities.cha.mod / 2))",
+            "name": "Zombie",
+            "_id": "sovaprofZombie01",
+            "uuid": "Compendium.dnd5e.actors24.Actor.mmZombie00000000",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

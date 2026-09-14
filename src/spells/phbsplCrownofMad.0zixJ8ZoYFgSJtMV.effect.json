@@ -1,0 +1,41 @@
+{
+  "name": "Spectral Crown",
+  "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad",
+  "duration": {
+    "value": 60,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "disabled": false,
+  "flags": {
+    "dnd5e": {}
+  },
+  "img": "icons/magic/control/control-influence-crown-yellow.webp",
+  "_id": "0zixJ8ZoYFgSJtMV",
+  "type": "base",
+  "system": {
+    "changes": []
+  },
+  "description": "<p>The target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if no creature is within its reach. The target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>",
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [
+    "charmed"
+  ],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "showIcon": 2,
+  "start": null,
+  "folder": null
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Fear",
+  "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplFear000000",
+  "duration": {
+    "value": 60,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "disabled": false,
+  "flags": {
+    "dnd5e": {}
+  },
+  "img": "systems/dnd5e/icons/svg/statuses/frightened.svg",
+  "_id": "ijiWLu6EJZmEJPOZ",
+  "type": "base",
+  "system": {
+    "changes": []
+  },
+  "description": "<p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw. On a successful save, the spell ends on that creature.</p>",
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [
+    "frightened"
+  ],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "showIcon": 2,
+  "start": null,
+  "folder": null
+}

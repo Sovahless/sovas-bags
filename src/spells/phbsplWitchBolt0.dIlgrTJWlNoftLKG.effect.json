@@ -1,0 +1,39 @@
+{
+  "name": "Sustained Lightning",
+  "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0",
+  "duration": {
+    "value": 60,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "disabled": false,
+  "flags": {
+    "dnd5e": {}
+  },
+  "img": "icons/magic/lightning/bolt-strike-blue-white.webp",
+  "_id": "dIlgrTJWlNoftLKG",
+  "type": "base",
+  "system": {
+    "changes": []
+  },
+  "description": "<p>On each of your subsequent turns, you can take a Bonus Action to deal [[/damage 1d12 type=lightning]] damage to the target automatically, even if the first attack missed.</p><p>The spell ends if the target is ever outside the spell’s range or if it has &amp;Reference[totalcover] from you.</p>",
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "start": null,
+  "showIcon": 1,
+  "folder": null
+}

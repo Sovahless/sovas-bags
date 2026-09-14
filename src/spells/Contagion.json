@@ -1,0 +1,225 @@
+{
+  "name": "Contagion",
+  "system": {
+    "description": {
+      "value": "<p>Your touch inflicts a magical contagion. The target must succeed on a Constitution saving throw or take 11d8 Necrotic damage and have the &amp;Reference[Poisoned apply=false] condition. Also, choose one ability when you cast the spell. While Poisoned, the target has Disadvantage on saving throws made with the chosen ability.</p><p>The target must repeat the saving throw at the end of each of its turns until it gets three successes or failures. If the target succeeds on three of these saves, the spell ends on the target. If the target fails three of the saves, the spell lasts for 7 days on it.</p><p>Whenever the Poisoned target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con dc=@attributes.spell.dc format=long]], or the Poisoned condition doesn’t end on it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 3
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "7",
+      "units": "day"
+    },
+    "target": {
+      "affects": {
+        "type": "any",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 5,
+    "school": "nec",
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "S8jxTZQbT8KKSg5V",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "_id": "pqGQCk5wZx196HuY",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "_id": "5aPQT5DlL6Igaxh4",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "_id": "EruTLG8AjsLULgHj",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "_id": "J77AMHW5tROddZQg",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          },
+          {
+            "_id": "xewLYmHBxPTEKPlU",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 11,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "save": {
+          "ability": "con",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          }
+        }
+      }
+    },
+    "identifier": "contagion"
+  },
+  "_id": "phbsplContagion0",
+  "type": "spell",
+  "img": "icons/magic/acid/dissolve-vomit-green-brown.webp",
+  "effects": [
+    "S8jxTZQbT8KKSg5V",
+    "pqGQCk5wZx196HuY",
+    "5aPQT5DlL6Igaxh4",
+    "EruTLG8AjsLULgHj",
+    "J77AMHW5tROddZQg",
+    "xewLYmHBxPTEKPlU"
+  ],
+  "folder": "beZ8MTpWY2cMEUlp",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1724425947437,
+    "modifiedTime": 1782835156300,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  }
+}

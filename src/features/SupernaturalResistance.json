@@ -1,0 +1,114 @@
+{
+  "_id": "sovapdnSupernatR",
+  "name": "Supernatural Resistance",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gain resistance to bludgeoning, piercing, and slashing damage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 15
+    },
+    "properties": [],
+    "requirements": "",
+    "identifier": "supernatural-resistance",
+    "activities": {}
+  },
+  "effects": [
+    {
+      "name": "Supernatural Resistance",
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-purple.webp",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnSupernatR",
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "flags": {},
+      "_id": "sovasreffpass001",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dr.value",
+            "value": "bludgeoning",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sovasrcng0000001"
+          },
+          {
+            "key": "system.traits.dr.value",
+            "value": "piercing",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sovasrcng0000002"
+          },
+          {
+            "key": "system.traits.dr.value",
+            "value": "slashing",
+            "priority": null,
+            "type": "add",
+            "phase": "initial",
+            "_id": "sovasrcng0000003"
+          }
+        ]
+      },
+      "description": "<p>Resistance to Bludgeoning, Piercing, and Slashing damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.1",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder",
+        "exportSource": null
+      },
+      "showIcon": 1,
+      "start": null,
+      "folder": null
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

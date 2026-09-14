@@ -1,0 +1,175 @@
+{
+  "_id": "sovapdnDreadfulA",
+  "name": "Dreadful Aspect",
+  "type": "feat",
+  "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Immediately after casting <em>Divine Smite</em>, you can expend one use of your Channel Divinity to unleash a wave of dread. As an action (or trigger: immediately after casting Divine Smite), each creature of your choice in a 30-foot emanation originating from you must make a Wisdom saving throw against your spell save DC. On a failed save, a creature is frightened of you for 1 minute.</p><p>The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p><section class=\"secret\" id=\"secret-dreadful-aspect\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Frightened condition. Creatures repeat the saving throw at the end of their turn.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "identifier": "dreadful-aspect",
+    "activities": {
+      "sovadaactivity01": {
+        "type": "save",
+        "_id": "sovadaactivity01",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "Immediately after casting Divine Smite"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "feat:channel-divinity-paladin",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "sovadaeffect0001",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "30"
+          },
+          "affects": {
+            "choice": true,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": "wis",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "sovadaeffect0001"
+        ]
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Dreadful Aspect (Frightened)",
+      "img": "systems/dnd5e/icons/svg/statuses/frightened.svg",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnDreadfulA",
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "disabled": false,
+      "flags": {},
+      "_id": "sovadaeffect0001",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "magical": true
+      },
+      "description": "<p>A creature with this condition is &amp;Reference[frightened]. It can repeat the [[/save ability=wis]] saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.1",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder",
+        "exportSource": null
+      },
+      "showIcon": 1,
+      "start": null,
+      "folder": null
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

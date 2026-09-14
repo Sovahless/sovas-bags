@@ -1,0 +1,263 @@
+{
+  "_id": "sovapdnOathbreak",
+  "name": "Oathbreaker",
+  "type": "subclass",
+  "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Obtain Great Power at Any Cost</p></blockquote><p>The power of a Paladin’s oath is so great that it holds a distorted power even when it is violated. When a Paladin betrays the tenets of their oath because of corruption, pride, or thirst for power, they lose the blessing granted by their original oath but sometimes take on the sinister blessing of the Oathbreaker in its place. Oathbreakers use fear and overwhelming power to achieve their goals. While many Oathbreakers are beyond redemption, some Paladins bend this oath to achieve a great and noble deed to atone for their past evils.</p><p>At the DM’s discretion, a Paladin of any level who violates the tenets of their oath can lose the benefits granted by their original subclass and gain the features of the Oathbreaker subclass instead. Alternatively, a Paladin can choose this subclass at level 3 based on the character backstory.</p><h3>Tenets of the Oathbreaker</h3><ul><li><strong>Fear is a tool in the hands of the powerful:</strong> Instill dread in those who oppose you to make them submit without drawing a weapon.</li><li><strong>Strive for power at any cost:</strong> Mercy and kindness are illusions for the weak. Only power can make true changes in the world.</li><li><strong>Do what must be done, but never lose sight of your goal:</strong> Use whatever is at your disposal to defeat those that stand against you, but never let yourself be blinded by the path to success.</li></ul>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024"
+    },
+    "identifier": "oathbreaker",
+    "classIdentifier": "paladin",
+    "advancement": [
+      {
+        "_id": "sovalvl03feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnConjureUn",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnDreadfulA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "sovalvl03spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplHellishReb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplWitchBolt0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Oathbreaker Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovalvl05spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplCrownofMad",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplDarkness00",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Oathbreaker Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovalvl07feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnAuraOfHat",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "sovalvl09spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplFear000000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplSummonUnde",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Oathbreaker Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovalvl13spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBlight0000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplPhantasmal",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Oathbreaker Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovalvl15feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnSupernatR",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Subclass Features"
+      },
+      {
+        "_id": "sovalvl17spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplContagion0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplSteelWindS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Oathbreaker Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovalvl20feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnDreadLord",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "Subclass Features"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  }
+}

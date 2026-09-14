@@ -1,0 +1,80 @@
+{
+  "id": "sovas-bags",
+  "title": "Sova's Bags",
+  "description": "Adds the Oathbreaker Paladin subclass for the revised 2024 D&D 5e rules, along with its features and domain spells.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Sovahless",
+      "url": "https://github.com/Sovahless"
+    }
+  ],
+  "esmodules": [
+    "scripts/sovas-bags.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "sovas-bags-subclasses",
+      "label": "Sova's Bags: Subclasses",
+      "path": "packs/sovas-bags-subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sovas-bags-features",
+      "label": "Sova's Bags: Features",
+      "path": "packs/sovas-bags-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sovas-bags-spells",
+      "label": "Sova's Bags: Spells",
+      "path": "packs/sovas-bags-spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/Sovahless/sovas-bags",
+  "manifest": "https://raw.githubusercontent.com/Sovahless/sovas-bags/main/module.json",
+  "download": "https://github.com/Sovahless/sovas-bags/archive/refs/heads/main.zip"
+}

@@ -1,0 +1,401 @@
+{
+  "_id": "sovapdnDreadLord",
+  "name": "Dread Lord",
+  "type": "feat",
+  "img": "icons/magic/unholy/demon-gargoyle-stone-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a Bonus Action, you can surround yourself with an aura of gloom that lasts for 10 minutes. The gloom lasts until you dismiss it (no action required), or you have the Incapacitated condition. The aura has the following effects:</p><ul><li><strong>Darkness.</strong> Magical darkness spreads from you to fill your Aura of Protection. You and your allies can see through this darkness as if it were bright light.</li><li><strong>Fear.</strong> Any creature that is frightened of you that starts its turn in your Aura of Protection takes 4d10 psychic damage.</li><li><strong>Shadow Strike.</strong> As a Bonus Action, you can make a melee spell attack against one creature within your Aura of Protection. On a hit, the creature takes 3d10 necrotic damage plus your Charisma modifier.</li></ul><p>Once you use this feature, you can’t do so again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required).</p><section class=\"secret\" id=\"secret-dread-lord\"><p><strong>Foundry Note</strong></p><p>The <strong>Dread Lord</strong> activity consumes a use and activates the aura effect for 10 minutes.</p><p>The <strong>Aura of Gloom - Psychic Damage</strong> activity rolls the 4d10 psychic damage against frightened creatures starting their turn in the aura.</p><p>The <strong>Shadow Strike</strong> activity executes the melee spell attack for 3d10 + Charisma necrotic damage.</p><p>The <strong>Restore Use</strong> activity consumes a 5th-level spell slot to recover the feature use.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 20
+    },
+    "properties": [],
+    "requirements": "",
+    "identifier": "dread-lord",
+    "activities": {
+      "sovadlactdread01": {
+        "type": "utility",
+        "name": "Dread Lord",
+        "_id": "sovadlactdread01",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "sovadleffect0001"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "sovadleffect0001"
+        ]
+      },
+      "sovadlactfear001": {
+        "type": "damage",
+        "name": "Aura of Gloom (Psychic Damage)",
+        "_id": "sovadlactfear001",
+        "sort": 1,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "Frightened creature starting turn in Aura of Protection"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "types": [
+                "psychic"
+              ],
+              "number": 4,
+              "denomination": 10,
+              "bonus": "",
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "sovadlactstrike1": {
+        "type": "attack",
+        "name": "Shadow Strike",
+        "_id": "sovadlactstrike1",
+        "sort": 2,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "Within Aura of Protection",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "ability": "cha",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "msak",
+            "classification": "spell"
+          }
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "types": [
+                "necrotic"
+              ],
+              "number": 3,
+              "denomination": 10,
+              "bonus": "@abilities.cha.mod",
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "sovadlactrestore": {
+        "type": "utility",
+        "name": "Restore Use",
+        "_id": "sovadlactrestore",
+        "sort": 3,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": ""
+            },
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "5"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Dread Lord",
+      "img": "icons/magic/unholy/demon-gargoyle-stone-purple.webp",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnDreadLord",
+      "duration": {
+        "value": 600,
+        "units": "seconds",
+        "expiry": "turnStart",
+        "expired": false
+      },
+      "disabled": false,
+      "flags": {},
+      "_id": "sovadleffect0001",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "description": "<p>Surrounded by an aura of gloom filling your Aura of Protection. You and allies can see through magical darkness as if it were bright light.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.1",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder",
+        "exportSource": null
+      },
+      "showIcon": 1,
+      "start": null,
+      "folder": null
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

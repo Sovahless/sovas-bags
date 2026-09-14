@@ -1,0 +1,14 @@
+{
+  "SOVAS_BAGS": {
+    "Title": "Sova's Bags",
+    "Description": "Ajoute la sous-classe du Paladin Briseur de Serment (Oathbreaker) pour les règles révisées 2024 de D&D 5e.",
+    "Oathbreaker": {
+      "Name": "Briseur de Serment (Oathbreaker)",
+      "ConjureUndead": "Invocation de Morts-Vivants",
+      "DreadfulAspect": "Aspect Effroyable",
+      "AuraOfHate": "Aura de Haine",
+      "SupernaturalResistance": "Résistance Surnaturelle",
+      "DreadLord": "Seigneur d'Effroi"
+    }
+  }
+}
