@@ -118,13 +118,24 @@ async function compilePack(sourceDir, destDir, docType) {
         coreVersion: '14.367',
         systemId: 'dnd5e',
         systemVersion: '6.0.1',
-        createdTime: Date.now(),
-        modifiedTime: Date.now(),
+        createdTime: 1726320000000,
+        modifiedTime: 1726320000000,
         lastModifiedBy: 'sovasbagsbuilder'
       };
     }
     await db.put(key, data);
     docCount++;
+  }
+
+  // Force compaction so all memtables/logs are written into .ldb SSTable files
+  const k1 = db.keys({ limit: 1, fillCache: false });
+  const firstKey = await k1.next();
+  await k1.close();
+  const k2 = db.keys({ limit: 1, reverse: true, fillCache: false });
+  const lastKey = await k2.next();
+  await k2.close();
+  if (firstKey && lastKey) {
+    await db.compactRange(firstKey, lastKey, { keyEncoding: 'utf8' });
   }
 
   await db.close();

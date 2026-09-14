@@ -1,0 +1,5 @@
+2026/09/14-22:00:21.264 69734 Delete type=3 #1
+2026/09/14-22:00:21.271 18990 Level-0 table #5: started
+2026/09/14-22:00:21.272 18990 Level-0 table #5: 18708 bytes OK
+2026/09/14-22:00:21.272 18990 Delete type=0 #3
+2026/09/14-22:00:21.273 18990 Manual compaction at level-0 from '!items!phbsplBlight0000' @ 72057594037927935 : 1 .. '!items.effects!phbsplWitchBolt0.dIlgrTJWlNoftLKG' @ 0 : 0; will stop at (end)
