@@ -1,0 +1,112 @@
+{
+  "_id": "sovawlkArmorHex0",
+  "name": "Armor of Hexes",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your hex grows more powerful. If the target cursed by your <em>Hexblade’s Curse</em> hits you with an attack roll, you can use your Reaction to roll a <code>1d6</code>. On a <strong>4, 5, or 6</strong>, the attack instead misses you, regardless of its roll.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE / Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 10
+    },
+    "properties": [],
+    "requirements": "The Hexblade",
+    "identifier": "armor-of-hexes",
+    "activities": {
+      "sovawlkactarmor1": {
+        "type": "utility",
+        "name": "Armor of Hexes (1d6)",
+        "_id": "sovawlkactarmor1",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "override": false,
+          "condition": "When hit by an attack from your cursed target"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "Armor of Hexes Roll (4+ misses)"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "Armor of Hexes Check",
+          "formula": "1d6"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

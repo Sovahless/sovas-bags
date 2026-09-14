@@ -1,0 +1,321 @@
+{
+  "name": "Elemental Weapon",
+  "system": {
+    "description": {
+      "value": "<p>A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you use a level 5–6 spell slot, the bonus to attack rolls increases to +2, and the extra damage increases to 2d4. If you use a level 7+ spell slot, the bonus increases to +3, and the extra damage increases to 3d4.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "object",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 3,
+    "school": "trs",
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "enchant",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          }
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "pGfFNf1ET79OGY2m",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "wKcTkykZTJwB5WGx",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "JSh7FcMkMvrPuUze",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "4fKngKGyhjykjx5K",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "xlAFY1k5T1OAtpDy",
+            "level": {
+              "min": 3,
+              "max": 4
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "F0jmiP33LCpSXzKS",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "P7l2v5zWI795y0qr",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "9YTw1A75Wva2KJFq",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "R9Pq5uRtTktLZaBV",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "XN3zomIP0t98AGfc",
+            "level": {
+              "min": 5,
+              "max": 6
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "1l07FgjqaBWVhfdf",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "mDyZ1j4PNKdlJCiD",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "dWeOUtA5QzUSuT5r",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "I4YQq64aes0LeDNj",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "hARI3OSV4CuHMXBT",
+            "level": {
+              "min": 7,
+              "max": null
+            },
+            "riders": {
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "type": "weapon",
+          "categories": [],
+          "properties": []
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "sort": 0
+      }
+    },
+    "identifier": "elemental-weapon"
+  },
+  "_id": "phbsplElementalW",
+  "type": "spell",
+  "img": "icons/skills/melee/blade-tip-smoke-green.webp",
+  "effects": [
+    "pGfFNf1ET79OGY2m",
+    "wKcTkykZTJwB5WGx",
+    "JSh7FcMkMvrPuUze",
+    "4fKngKGyhjykjx5K",
+    "xlAFY1k5T1OAtpDy",
+    "F0jmiP33LCpSXzKS",
+    "P7l2v5zWI795y0qr",
+    "9YTw1A75Wva2KJFq",
+    "R9Pq5uRtTktLZaBV",
+    "XN3zomIP0t98AGfc",
+    "1l07FgjqaBWVhfdf",
+    "mDyZ1j4PNKdlJCiD",
+    "dWeOUtA5QzUSuT5r",
+    "I4YQq64aes0LeDNj",
+    "hARI3OSV4CuHMXBT"
+  ],
+  "folder": "HCovEE4VoPGlIbKi",
+  "sort": 2400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1724425951763,
+    "modifiedTime": 1726075746878,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  }
+}

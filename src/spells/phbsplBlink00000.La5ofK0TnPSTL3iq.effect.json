@@ -1,0 +1,45 @@
+{
+  "name": "Ethereal",
+  "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000",
+  "duration": {
+    "value": 1,
+    "units": "rounds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "disabled": true,
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "statuses": []
+      }
+    }
+  },
+  "img": "systems/dnd5e/icons/svg/statuses/ethereal.svg",
+  "_id": "La5ofK0TnPSTL3iq",
+  "type": "base",
+  "system": {
+    "changes": []
+  },
+  "description": "",
+  "tint": "#ffffff",
+  "transfer": true,
+  "statuses": [
+    "ethereal"
+  ],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.1",
+    "createdTime": null,
+    "modifiedTime": 1755877695018,
+    "lastModifiedBy": "xREoBzi7Iao0TR7B",
+    "exportSource": null
+  },
+  "showIcon": 2,
+  "start": null,
+  "folder": null
+}

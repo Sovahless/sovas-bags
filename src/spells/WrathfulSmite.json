@@ -1,0 +1,251 @@
+{
+  "name": "Wrathful Smite",
+  "system": {
+    "description": {
+      "value": "<p>The target takes an extra 1d6 Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the &amp;Reference[frightened apply=false] condition until the spell ends. At the end of each of its turns, the Frightened target repeats the save, ending the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d6 for each spell slot level above 1.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "1",
+        "type": "creatureOrObject",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 1,
+    "school": "nec",
+    "properties": [
+      "vocal"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "AGxThnIAskdh5Nqr",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "damage": {
+          "onSave": "full",
+          "parts": []
+        },
+        "save": {
+          "ability": "wis",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "name": "Frightened Save",
+        "img": "",
+        "appliedEffects": [
+          "AGxThnIAskdh5Nqr"
+        ],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      "7g4z2R5Xozd8TESe": {
+        "type": "damage",
+        "name": "Damage",
+        "img": "",
+        "sort": -100000,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "flags": {},
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "stationary": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "_id": "7g4z2R5Xozd8TESe"
+      }
+    },
+    "identifier": "wrathful-smite"
+  },
+  "_id": "phbsplWrathfulSm",
+  "type": "spell",
+  "img": "icons/magic/death/weapon-sword-skull-purple.webp",
+  "effects": [
+    "AGxThnIAskdh5Nqr"
+  ],
+  "folder": "pBaAAtXBCq9FVEnL",
+  "sort": 101563,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1724425978616,
+    "modifiedTime": 1782752440176,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  }
+}

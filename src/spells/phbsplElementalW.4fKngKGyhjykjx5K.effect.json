@@ -1,0 +1,74 @@
+{
+  "name": "Elemental Lightning +1",
+  "origin": null,
+  "duration": {
+    "value": 3600,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "disabled": false,
+  "flags": {
+    "dnd5e": {
+      "enchantment": {
+        "level": {
+          "min": 3,
+          "max": 4
+        },
+        "riders": {
+          "effect": [],
+          "item": []
+        }
+      }
+    }
+  },
+  "img": "icons/magic/lightning/bolts-strike-salvo-blue.webp",
+  "_id": "4fKngKGyhjykjx5K",
+  "type": "enchantment",
+  "system": {
+    "changes": [
+      {
+        "key": "system.properties",
+        "value": "mgc",
+        "priority": null,
+        "type": "add"
+      },
+      {
+        "key": "system.attack.bonus",
+        "value": 1,
+        "priority": null,
+        "type": "add"
+      },
+      {
+        "key": "system.damage.parts",
+        "value": [
+          [
+            "1d4",
+            "lightning"
+          ]
+        ],
+        "priority": null,
+        "type": "add"
+      }
+    ]
+  },
+  "description": "",
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "start": null,
+  "showIcon": 1,
+  "folder": null
+}

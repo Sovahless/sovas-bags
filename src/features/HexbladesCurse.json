@@ -1,0 +1,240 @@
+{
+  "_id": "sovawlkHexCurse0",
+  "name": "Hexblade's Curse",
+  "type": "feat",
+  "img": "icons/magic/death/skull-horned-goat-pentagram-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gain the ability to place a baleful curse on someone. As a Bonus Action, choose one creature you can see within 30 feet of you. The target is cursed for 1 minute. The curse ends early if the target dies, you die, or you are Incapacitated. Until the curse ends, you gain the following benefits:</p><ul><li><strong>Damage Bonus:</strong> You gain a bonus to damage rolls against the cursed target. The bonus equals your Proficiency Bonus (<code>+@prof</code>).</li><li><strong>Critical Threat:</strong> Any attack roll you make against the cursed target is a Critical Hit on a roll of 19 or 20 on the d20.</li><li><strong>Curse Healing:</strong> If the cursed target dies, you regain Hit Points equal to your Warlock level + your Charisma modifier (minimum of 1 HP).</li></ul><p>Once you use this feature, you can’t use it again until you finish a Short or Long Rest.</p><section class=\"secret\" id=\"secret-hex-curse\"><p><strong>Foundry Note</strong></p><p>Use the <strong>Hexblade's Curse</strong> activity to curse a target (1 use/rest). Use the <strong>Curse Slain - Regain HP</strong> activity to automatically roll and apply your healing when the target dies.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE / Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "The Hexblade",
+    "identifier": "hexblades-curse",
+    "activities": {
+      "sovawlkactcurse1": {
+        "type": "utility",
+        "name": "Hexblade's Curse",
+        "_id": "sovawlkactcurse1",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "sovawlkeffcurse1"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "sovawlkeffcurse1"
+        ]
+      },
+      "sovawlkactheal01": {
+        "type": "heal",
+        "name": "Curse Slain - Regain HP",
+        "_id": "sovawlkactheal01",
+        "sort": 1,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "When the cursed target dies"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "Regain HP on cursed target death"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "max(1, @classes.warlock.levels + @abilities.cha.mod)",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": 1
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Hexblade's Curse",
+      "img": "icons/magic/death/skull-horned-goat-pentagram-red.webp",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovawlkHexCurse0",
+      "duration": {
+        "value": 60,
+        "units": "seconds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "disabled": false,
+      "flags": {},
+      "_id": "sovawlkeffcurse1",
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "description": "<p>Target is cursed: attacker deals +@prof extra damage, scores critical hits on 19-20, and regains HP when target dies.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.1",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder",
+        "exportSource": null
+      },
+      "showIcon": 1,
+      "start": null,
+      "folder": null
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

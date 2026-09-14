@@ -1,0 +1,48 @@
+{
+  "name": "Shining",
+  "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplShiningSmi",
+  "duration": {
+    "value": 60,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "disabled": false,
+  "flags": {
+    "dnd5e": {}
+  },
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "_id": "pBjrcT286iCAQrjm",
+  "type": "base",
+  "system": {
+    "changes": [
+      {
+        "key": "system.traits.ci.value",
+        "value": "invisible",
+        "priority": null,
+        "type": "add"
+      }
+    ]
+  },
+  "description": "<p>Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can’t benefit from the &amp;Reference[Invisible] condition.</p>",
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [
+    "marked"
+  ],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": 1725650522091,
+    "lastModifiedBy": "UkXd4NXnT5o2bQiL",
+    "exportSource": null
+  },
+  "showIcon": 2,
+  "start": null,
+  "folder": null
+}

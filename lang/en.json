@@ -1,7 +1,7 @@
 {
   "SOVAS_BAGS": {
     "Title": "Sova's Bags",
-    "Description": "Adds the Oathbreaker Paladin subclass for the revised 2024 D&D 5e rules.",
+    "Description": "Custom subclasses, classes, and items for the revised 2024 D&D 5e rules.",
     "Oathbreaker": {
       "Name": "Oathbreaker",
       "ConjureUndead": "Conjure Undead",
@@ -9,6 +9,14 @@
       "AuraOfHate": "Aura of Hate",
       "SupernaturalResistance": "Supernatural Resistance",
       "DreadLord": "Dread Lord"
+    },
+    "Hexblade": {
+      "Name": "The Hexblade",
+      "HexbladesCurse": "Hexblade's Curse",
+      "HexWarrior": "Hex Warrior",
+      "AccursedSpecter": "Accursed Specter",
+      "ArmorOfHexes": "Armor of Hexes",
+      "MasterOfHexes": "Master of Hexes"
     }
   }
 }

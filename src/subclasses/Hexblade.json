@@ -1,0 +1,242 @@
+{
+  "_id": "sovawlkHexblade0",
+  "name": "The Hexblade",
+  "type": "subclass",
+  "img": "icons/weapons/swords/sword-runed-glowing-purple.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Shadowfell Armaments and Dark Curses</p></blockquote><p>You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.</p><p>Because the Raven Queen is known to have forged the first of these weapons, many sages surmise that she and the force are one and the same and that by granting warlocks power she can manipulate events on the Material Plane to her inscrutable ends.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE / Sova's Bags",
+      "rules": "2024"
+    },
+    "identifier": "hexblade",
+    "classIdentifier": "warlock",
+    "advancement": [
+      {
+        "_id": "sovawlk03feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovawlkHexCurse0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovawlkHexWarrio",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Hexblade Features"
+      },
+      {
+        "_id": "sovawlk03spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplShield0000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplWrathfulSm",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBlur000000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplShiningSmi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Hexblade Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovawlk05spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBlink00000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplElementalW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Hexblade Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovawlk06feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovawlkAccursedS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Hexblade Features"
+      },
+      {
+        "_id": "sovawlk07spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplPhantasmal",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplStaggering",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "Hexblade Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovawlk09spls001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBanishingS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplConeofCold",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Hexblade Spells",
+        "hint": ""
+      },
+      {
+        "_id": "sovawlk10feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovawlkArmorHex0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Hexblade Features"
+      },
+      {
+        "_id": "sovawlk14feat001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovawlkMasterHex",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Hexblade Features"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  }
+}

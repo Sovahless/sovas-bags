@@ -1,0 +1,74 @@
+{
+  "name": "Elemental Acid +1",
+  "flags": {
+    "dnd5e": {
+      "enchantment": {
+        "level": {
+          "min": 3,
+          "max": 4
+        },
+        "riders": {
+          "effect": [],
+          "item": []
+        }
+      }
+    }
+  },
+  "img": "icons/magic/acid/projectile-flame-smoke-green.webp",
+  "_id": "pGfFNf1ET79OGY2m",
+  "type": "enchantment",
+  "system": {
+    "changes": [
+      {
+        "key": "system.properties",
+        "value": "mgc",
+        "priority": null,
+        "type": "add"
+      },
+      {
+        "key": "system.attack.bonus",
+        "value": 1,
+        "priority": null,
+        "type": "add"
+      },
+      {
+        "key": "system.damage.parts",
+        "value": [
+          [
+            "1d4",
+            "acid"
+          ]
+        ],
+        "priority": null,
+        "type": "add"
+      }
+    ]
+  },
+  "disabled": false,
+  "duration": {
+    "value": 3600,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "description": "",
+  "origin": null,
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "start": null,
+  "showIcon": 1,
+  "folder": null
+}

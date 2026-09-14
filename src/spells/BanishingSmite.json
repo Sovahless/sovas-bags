@@ -1,0 +1,251 @@
+{
+  "name": "Banishing Smite",
+  "system": {
+    "description": {
+      "value": "<p>The target hit by the attack roll takes an extra 5d10 Force damage from the attack. If the attack reduces the target to 50 Hit Points or fewer, the target must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the &amp;Reference[Incapacitated apply=false] condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 2
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "1",
+        "type": "creatureOrObject",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 5,
+    "school": "con",
+    "properties": [
+      "vocal",
+      "concentration"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "save",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": false
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "override": true,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "dAnHnTaGvsiN1WzK",
+            "onSave": false,
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "prompt": true,
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false
+        },
+        "damage": {
+          "onSave": "full",
+          "parts": []
+        },
+        "save": {
+          "ability": "cha",
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "name": "Banishment Save",
+        "img": "",
+        "appliedEffects": [
+          "dAnHnTaGvsiN1WzK"
+        ],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          }
+        }
+      },
+      "CXmmXBTfen6D6LXY": {
+        "type": "damage",
+        "name": "Damage",
+        "_id": "CXmmXBTfen6D6LXY",
+        "img": "",
+        "sort": -100000,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": true,
+          "override": true
+        },
+        "effects": [],
+        "flags": {},
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "stationary": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 5,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "force"
+              ],
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    "identifier": "banishing-smite"
+  },
+  "_id": "phbsplBanishingS",
+  "type": "spell",
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "effects": [
+    "dAnHnTaGvsiN1WzK"
+  ],
+  "folder": "beZ8MTpWY2cMEUlp",
+  "sort": 3600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "createdTime": 1724425942522,
+    "modifiedTime": 1782752469679,
+    "lastModifiedBy": "dnd5ebuilder0000",
+    "exportSource": null
+  }
+}

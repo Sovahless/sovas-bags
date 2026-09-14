@@ -1,5 +1,5 @@
-2026/09/14-22:00:21.243 6b5e0 Delete type=3 #1
-2026/09/14-22:00:21.246 18990 Level-0 table #5: started
-2026/09/14-22:00:21.248 18990 Level-0 table #5: 9689 bytes OK
-2026/09/14-22:00:21.248 18990 Delete type=0 #3
-2026/09/14-22:00:21.248 18990 Manual compaction at level-0 from '!items!sovapdnAuraOfHat' @ 72057594037927935 : 1 .. '!items.effects!sovapdnSupernatR.sovasreffpass001' @ 0 : 0; will stop at (end)
+2026/09/15-00:29:30.325 65a6c Delete type=3 #1
+2026/09/15-00:29:30.330 3aed8 Level-0 table #5: started
+2026/09/15-00:29:30.332 3aed8 Level-0 table #5: 15541 bytes OK
+2026/09/15-00:29:30.332 3aed8 Delete type=0 #3
+2026/09/15-00:29:30.333 3aed8 Manual compaction at level-0 from '!items!sovapdnAuraOfHat' @ 72057594037927935 : 1 .. '!items.effects!sovawlkHexCurse0.sovawlkeffcurse1' @ 0 : 0; will stop at (end)

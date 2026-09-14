@@ -1,7 +1,7 @@
 {
   "SOVAS_BAGS": {
     "Title": "Sova's Bags",
-    "Description": "Ajoute la sous-classe du Paladin Briseur de Serment (Oathbreaker) pour les règles révisées 2024 de D&D 5e.",
+    "Description": "Sous-classes, classes et objets personnalisés pour les règles révisées 2024 de D&D 5e.",
     "Oathbreaker": {
       "Name": "Briseur de Serment (Oathbreaker)",
       "ConjureUndead": "Invocation de Morts-Vivants",
@@ -9,6 +9,14 @@
       "AuraOfHate": "Aura de Haine",
       "SupernaturalResistance": "Résistance Surnaturelle",
       "DreadLord": "Seigneur d'Effroi"
+    },
+    "Hexblade": {
+      "Name": "Magelame (Hexblade)",
+      "HexbladesCurse": "Malédiction du Magelame",
+      "HexWarrior": "Guerrier Maudit",
+      "AccursedSpecter": "Spectre Maudit",
+      "ArmorOfHexes": "Armure de Maléfices",
+      "MasterOfHexes": "Maître des Maléfices"
     }
   }
 }

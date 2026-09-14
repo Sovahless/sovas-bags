@@ -1,0 +1,163 @@
+{
+  "_id": "sovawlkAccursedS",
+  "name": "Accursed Specter",
+  "type": "feat",
+  "img": "icons/magic/death/undead-ghost-shadow-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can curse the soul of a person on their death to serve you. When you slay a Humanoid, you can cause its spirit to rise from its corpse as a <strong>Specter</strong>. When the specter appears, it gains Temporary Hit Points equal to half your Warlock level (<code>floor(@classes.warlock.levels / 2)</code>). Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (<code>+@abilities.cha.mod</code>).</p><p>The specter remains in your service until the end of your next Long Rest, at which point it vanishes to the afterlife.</p><p>Once you bind a specter with this feature, you can’t use the feature again until you finish a Long Rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE / Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "The Hexblade",
+    "identifier": "accursed-specter",
+    "activities": {
+      "sovawlkactspect1": {
+        "type": "summon",
+        "name": "Summon Accursed Specter",
+        "_id": "sovawlkactspect1",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "override": false,
+          "condition": "When you slay a Humanoid"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "Rise, Accursed Specter!"
+        },
+        "duration": {
+          "units": "day",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "Corpse of slain Humanoid",
+          "value": "10"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "1",
+            "type": "space",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "count": "1",
+            "name": "Accursed Specter",
+            "_id": "sovaprofSpect001",
+            "uuid": "Compendium.sovas-bags.sovas-bags-actors.Actor.sovamobSpecter01",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "1",
+            "name": "Specter (Core 2024)",
+            "_id": "sovaprofSpect002",
+            "uuid": "Compendium.dnd5e.actors24.Actor.mmSpecter0000000",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

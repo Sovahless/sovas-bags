@@ -1,5 +1,5 @@
-2026/09/14-22:00:21.282 68548 Delete type=3 #1
-2026/09/14-22:00:21.286 18990 Level-0 table #5: started
-2026/09/14-22:00:21.287 18990 Level-0 table #5: 10200 bytes OK
-2026/09/14-22:00:21.287 18990 Delete type=0 #3
-2026/09/14-22:00:21.288 18990 Manual compaction at level-0 from '!actors!sovamobSkeleton1' @ 72057594037927935 : 1 .. '!actors.items!sovamobZombie001.sovaslam00000001' @ 0 : 0; will stop at (end)
+2026/09/15-00:29:30.367 69c18 Delete type=3 #1
+2026/09/15-00:29:30.370 3aed8 Level-0 table #5: started
+2026/09/15-00:29:30.372 3aed8 Level-0 table #5: 15327 bytes OK
+2026/09/15-00:29:30.373 3aed8 Delete type=0 #3
+2026/09/15-00:29:30.373 3aed8 Manual compaction at level-0 from '!actors!sovamobSkeleton1' @ 72057594037927935 : 1 .. '!actors.items!sovamobZombie001.sovaslam00000001' @ 0 : 0; will stop at (end)

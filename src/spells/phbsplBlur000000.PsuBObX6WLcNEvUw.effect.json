@@ -1,0 +1,43 @@
+{
+  "name": "Blurred",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplBlur000000",
+  "_id": "PsuBObX6WLcNEvUw",
+  "type": "base",
+  "system": {
+    "changes": []
+  },
+  "disabled": true,
+  "duration": {
+    "value": 60,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "description": "<p>For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>",
+  "tint": "#ffffff",
+  "transfer": true,
+  "statuses": [],
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "statuses": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.4",
+    "createdTime": 1740605334529,
+    "modifiedTime": 1755877483762,
+    "lastModifiedBy": "xREoBzi7Iao0TR7B",
+    "exportSource": null
+  },
+  "start": null,
+  "showIcon": 1,
+  "folder": null
+}

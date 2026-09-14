@@ -1,0 +1,51 @@
+{
+  "_id": "sovawlkMasterHex",
+  "name": "Master of Hexes",
+  "type": "feat",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can mold your hexed curse from one creature to another. When the creature cursed by your <em>Hexblade’s Curse</em> dies, you can apply the curse to a different creature you can see within 30 feet of you (no action required), provided you aren't Incapacitated.</p><p>When you apply the curse in this way, you don't regain Hit Points from the death of the previously cursed creature.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE / Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 14
+    },
+    "properties": [],
+    "requirements": "The Hexblade",
+    "identifier": "master-of-hexes",
+    "activities": {}
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

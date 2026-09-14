@@ -1,0 +1,88 @@
+{
+  "_id": "sovawlkHexWarrio",
+  "name": "Hex Warrior",
+  "type": "feat",
+  "img": "icons/weapons/swords/sword-runed-glowing-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have acquired the training necessary to effectively arm yourself for battle. You gain proficiency with Medium Armor, Shields, and Martial Weapons.</p><p>Whenever you finish a Long Rest, you can touch one weapon that you are proficient with and that lacks the Two-Handed property. When you attack with that weapon, you can use your <strong>Charisma modifier</strong>, instead of Strength or Dexterity, for the attack and damage rolls. This benefit also extends to every weapon you conjure or wield with the <em>Pact of the Blade</em> feature.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "XGtE / Sova's Bags",
+      "rules": "2024"
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "The Hexblade",
+    "identifier": "hex-warrior",
+    "activities": {},
+    "advancement": [
+      {
+        "_id": "sovatraitarm0001",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:med",
+            "armor:shl"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "Armor Training"
+      },
+      {
+        "_id": "sovatraitwep0001",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:mar"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "Weapon Training"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.1",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

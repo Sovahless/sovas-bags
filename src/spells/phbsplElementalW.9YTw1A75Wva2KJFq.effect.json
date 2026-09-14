@@ -1,0 +1,74 @@
+{
+  "name": "Elemental Fire +2",
+  "flags": {
+    "dnd5e": {
+      "enchantment": {
+        "level": {
+          "min": 5,
+          "max": 6
+        },
+        "riders": {
+          "effect": [],
+          "item": []
+        }
+      }
+    }
+  },
+  "img": "icons/magic/fire/flame-burning-yellow-orange.webp",
+  "_id": "9YTw1A75Wva2KJFq",
+  "type": "enchantment",
+  "system": {
+    "changes": [
+      {
+        "key": "system.properties",
+        "value": "mgc",
+        "priority": null,
+        "type": "add"
+      },
+      {
+        "key": "system.attack.bonus",
+        "value": 2,
+        "priority": null,
+        "type": "add"
+      },
+      {
+        "key": "system.damage.parts",
+        "value": [
+          [
+            "2d4",
+            "fire"
+          ]
+        ],
+        "priority": null,
+        "type": "add"
+      }
+    ]
+  },
+  "disabled": false,
+  "duration": {
+    "value": 3600,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "description": "",
+  "origin": null,
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "start": null,
+  "showIcon": 1,
+  "folder": null
+}

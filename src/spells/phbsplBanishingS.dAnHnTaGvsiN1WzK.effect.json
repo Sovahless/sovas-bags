@@ -1,0 +1,41 @@
+{
+  "name": "Banished",
+  "origin": "Compendium.dnd-players-handbook.spells.Item.phbsplBanishingS",
+  "duration": {
+    "value": 60,
+    "units": "seconds",
+    "expiry": "turnStart",
+    "expired": false
+  },
+  "disabled": false,
+  "flags": {
+    "dnd5e": {}
+  },
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "_id": "dAnHnTaGvsiN1WzK",
+  "type": "base",
+  "system": {
+    "changes": []
+  },
+  "description": "<p>The target is transported to a harmless demiplane for the duration. While there, the target has the &amp;Reference[Incapacitated apply=false] condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</p>",
+  "tint": "#ffffff",
+  "transfer": false,
+  "statuses": [
+    "incapacitated"
+  ],
+  "sort": 0,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.364",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "exportSource": null
+  },
+  "showIcon": 2,
+  "start": null,
+  "folder": null
+}
