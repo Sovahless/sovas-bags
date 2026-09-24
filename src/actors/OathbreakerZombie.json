@@ -656,7 +656,7 @@
     "lockRotation": false,
     "rotation": 0,
     "alpha": 1,
-    "disposition": -1,
+    "disposition": 1,
     "displayBars": 20,
     "bar1": {
       "attribute": "attributes.hp"
