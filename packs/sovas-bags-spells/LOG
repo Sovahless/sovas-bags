@@ -1,3 +1,5 @@
-2026/09/15-00:29:36.915 331f0 Recovering log #4
-2026/09/15-00:29:36.917 331f0 Delete type=0 #4
-2026/09/15-00:29:36.917 331f0 Delete type=3 #2
+2026/09/24-12:35:50.986 50fc Delete type=3 #1
+2026/09/24-12:35:51.021 4a0c Level-0 table #5: started
+2026/09/24-12:35:51.022 4a0c Level-0 table #5: 37631 bytes OK
+2026/09/24-12:35:51.023 4a0c Delete type=0 #3
+2026/09/24-12:35:51.023 4a0c Manual compaction at level-0 from '!items!phbsplBanishingS' @ 72057594037927935 : 1 .. '!items.effects!phbsplWrathfulSm.AGxThnIAskdh5Nqr' @ 0 : 0; will stop at (end)

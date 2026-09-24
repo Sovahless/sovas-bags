@@ -42,12 +42,12 @@
           "scaling": {
             "allowed": false
           },
-          "spellSlot": true,
+          "spellSlot": false,
           "targets": [
             {
               "type": "itemUses",
               "value": "1",
-              "target": "feat:channel-divinity-paladin",
+              "target": "channel-divinity",
               "scaling": {}
             }
           ]
@@ -104,7 +104,7 @@
             "formula": ""
           }
         },
-        "name": "",
+        "name": "Dreadful Aspect",
         "img": "",
         "appliedEffects": [
           "sovadaeffect0001"

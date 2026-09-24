@@ -42,12 +42,12 @@
           "scaling": {
             "allowed": false
           },
-          "spellSlot": true,
+          "spellSlot": false,
           "targets": [
             {
               "type": "itemUses",
               "value": "1",
-              "target": "feat:channel-divinity-paladin",
+              "target": "channel-divinity",
               "scaling": {}
             }
           ]
@@ -147,13 +147,35 @@
               "max": null
             },
             "types": []
+          },
+          {
+            "count": "max(1, ceil(@abilities.cha.mod / 2))",
+            "name": "Skeleton (Sova's Bags)",
+            "_id": "sovaprofSkelSB1",
+            "uuid": "Compendium.sovas-bags.sovas-bags-actors.Actor.sovamobSkeleton1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "max(1, ceil(@abilities.cha.mod / 2))",
+            "name": "Zombie (Sova's Bags)",
+            "_id": "sovaprofZombSB1",
+            "uuid": "Compendium.sovas-bags.sovas-bags-actors.Actor.sovamobZombie001",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
           }
         ],
         "summon": {
           "prompt": true,
           "mode": ""
         },
-        "name": "",
+        "name": "Conjure Undead",
         "img": "",
         "appliedEffects": []
       }

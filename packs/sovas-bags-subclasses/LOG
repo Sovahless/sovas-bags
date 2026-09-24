@@ -1,3 +1,5 @@
-2026/09/15-00:29:36.895 39f00 Recovering log #4
-2026/09/15-00:29:36.897 39f00 Delete type=0 #4
-2026/09/15-00:29:36.897 39f00 Delete type=3 #2
+2026/09/24-12:35:50.952 69c4 Delete type=3 #1
+2026/09/24-12:35:50.955 4a0c Level-0 table #5: started
+2026/09/24-12:35:50.956 4a0c Level-0 table #5: 4213 bytes OK
+2026/09/24-12:35:50.957 4a0c Delete type=0 #3
+2026/09/24-12:35:50.957 4a0c Manual compaction at level-0 from '!items!sovapdnOathbreak' @ 72057594037927935 : 1 .. '!items!sovawlkHexblade0' @ 0 : 0; will stop at (end)

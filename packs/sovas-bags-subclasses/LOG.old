@@ -1,5 +1,0 @@
-2026/09/15-00:29:30.313 6a02c Delete type=3 #1
-2026/09/15-00:29:30.316 3aed8 Level-0 table #5: started
-2026/09/15-00:29:30.318 3aed8 Level-0 table #5: 4213 bytes OK
-2026/09/15-00:29:30.318 3aed8 Delete type=0 #3
-2026/09/15-00:29:30.319 3aed8 Manual compaction at level-0 from '!items!sovapdnOathbreak' @ 72057594037927935 : 1 .. '!items!sovawlkHexblade0' @ 0 : 0; will stop at (end)

@@ -1,5 +1,0 @@
-2026/09/15-00:29:30.349 3c7a0 Delete type=3 #1
-2026/09/15-00:29:30.357 3aed8 Level-0 table #5: started
-2026/09/15-00:29:30.359 3aed8 Level-0 table #5: 37631 bytes OK
-2026/09/15-00:29:30.360 3aed8 Delete type=0 #3
-2026/09/15-00:29:30.360 3aed8 Manual compaction at level-0 from '!items!phbsplBanishingS' @ 72057594037927935 : 1 .. '!items.effects!phbsplWrathfulSm.AGxThnIAskdh5Nqr' @ 0 : 0; will stop at (end)

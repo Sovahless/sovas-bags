@@ -1,3 +1,5 @@
-2026/09/15-00:29:36.923 39f00 Recovering log #4
-2026/09/15-00:29:36.925 39f00 Delete type=0 #4
-2026/09/15-00:29:36.925 39f00 Delete type=3 #2
+2026/09/24-12:35:51.032 8160 Delete type=3 #1
+2026/09/24-12:35:51.037 4a0c Level-0 table #5: started
+2026/09/24-12:35:51.038 4a0c Level-0 table #5: 15327 bytes OK
+2026/09/24-12:35:51.039 4a0c Delete type=0 #3
+2026/09/24-12:35:51.039 4a0c Manual compaction at level-0 from '!actors!sovamobSkeleton1' @ 72057594037927935 : 1 .. '!actors.items!sovamobZombie001.sovaslam00000001' @ 0 : 0; will stop at (end)
