@@ -1,5 +1,0 @@
-2026/09/24-12:35:50.965 9930 Delete type=3 #1
-2026/09/24-12:35:50.969 4a0c Level-0 table #5: started
-2026/09/24-12:35:50.970 4a0c Level-0 table #5: 15553 bytes OK
-2026/09/24-12:35:50.970 4a0c Delete type=0 #3
-2026/09/24-12:35:50.971 4a0c Manual compaction at level-0 from '!items!sovapdnAuraOfHat' @ 72057594037927935 : 1 .. '!items.effects!sovawlkHexCurse0.sovawlkeffcurse1' @ 0 : 0; will stop at (end)

@@ -139,6 +139,22 @@ async function compilePack(sourceDir, destDir, docType) {
   }
 
   await db.close();
+
+  // Clean up transient runtime files (LOG, LOCK, empty .log) to keep git commits clean
+  const outFiles = fs.readdirSync(absDest);
+  for (const f of outFiles) {
+    if (f === 'LOG' || f === 'LOG.old' || f === 'LOCK' || f.endsWith('.log')) {
+      const fp = path.join(absDest, f);
+      try {
+        if (f.endsWith('.log')) {
+          if (fs.statSync(fp).size === 0) fs.unlinkSync(fp);
+        } else {
+          fs.unlinkSync(fp);
+        }
+      } catch (_) {}
+    }
+  }
+
   const subInfo = [
     effectCount ? `${effectCount} effects` : null,
     itemCount ? `${itemCount} items` : null
