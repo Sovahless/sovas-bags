@@ -31,6 +31,7 @@ if (!ClassicLevel) {
 const PACK_MAPPINGS = [
   { src: 'src/classes', dest: 'packs/sovas-bags-classes', docType: 'items' },
   { src: 'src/subclasses', dest: 'packs/sovas-bags-subclasses', docType: 'items' },
+  { src: 'src/species', dest: 'packs/sovas-bags-species', docType: 'items' },
   { src: 'src/features', dest: 'packs/sovas-bags-features', docType: 'items' },
   { src: 'src/items', dest: 'packs/sovas-bags-items', docType: 'items' },
   { src: 'src/spells', dest: 'packs/sovas-bags-spells', docType: 'items' },
@@ -115,9 +116,9 @@ async function compilePack(sourceDir, destDir, docType) {
     const key = `!${docType}!${data._id}`;
     if (!data._stats) {
       data._stats = {
-        coreVersion: '14.367',
+        coreVersion: '14.370',
         systemId: 'dnd5e',
-        systemVersion: '6.0.1',
+        systemVersion: '6.1.0',
         createdTime: 1726320000000,
         modifiedTime: 1726320000000,
         lastModifiedBy: 'sovasbagsbuilder'

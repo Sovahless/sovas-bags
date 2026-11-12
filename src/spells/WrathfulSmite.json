@@ -240,9 +240,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.364",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "5.3.3",
+    "systemVersion": "6.1.0",
     "createdTime": 1724425978616,
     "modifiedTime": 1782752440176,
     "lastModifiedBy": "dnd5ebuilder0000",

@@ -2,7 +2,7 @@
   "_id": "sovawlkHexWarrio",
   "name": "Hex Warrior",
   "type": "feat",
-  "img": "icons/weapons/swords/sword-runed-glowing-purple.webp",
+  "img": "icons/weapons/swords/sword-guard-flanged-purple.webp",
   "system": {
     "description": {
       "value": "<p>You have acquired the training necessary to effectively arm yourself for battle. You gain proficiency with Medium Armor, Shields, and Martial Weapons.</p><p>Whenever you finish a Long Rest, you can touch one weapon that you are proficient with and that lacks the Two-Handed property. When you attack with that weapon, you can use your <strong>Charisma modifier</strong>, instead of Strength or Dexterity, for the attack and damage rolls. This benefit also extends to every weapon you conjure or wield with the <em>Pact of the Blade</em> feature.</p>",
@@ -73,9 +73,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "6.0.1",
+    "systemVersion": "6.1.0",
     "createdTime": 1726320000000,
     "modifiedTime": 1726320000000,
     "lastModifiedBy": "sovasbagsbuilder",

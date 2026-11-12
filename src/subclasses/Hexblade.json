@@ -2,7 +2,7 @@
   "_id": "sovawlkHexblade0",
   "name": "The Hexblade",
   "type": "subclass",
-  "img": "icons/weapons/swords/sword-runed-glowing-purple.webp",
+  "img": "icons/weapons/swords/greatsword-crossguard-flanged-purple.webp",
   "system": {
     "description": {
       "value": "<blockquote><p>Shadowfell Armaments and Dark Curses</p></blockquote><p>You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.</p><p>Because the Raven Queen is known to have forged the first of these weapons, many sages surmise that she and the force are one and the same and that by granting warlocks power she can manipulate events on the Material Plane to her inscrutable ends.</p>",
@@ -61,10 +61,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -90,10 +92,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -136,10 +140,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -165,10 +171,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -227,9 +235,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "6.0.1",
+    "systemVersion": "6.1.0",
     "createdTime": 1726320000000,
     "modifiedTime": 1726320000000,
     "lastModifiedBy": "sovasbagsbuilder",

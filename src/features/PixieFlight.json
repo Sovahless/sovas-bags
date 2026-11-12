@@ -1,0 +1,51 @@
+{
+  "_id": "sovapixFlight001",
+  "name": "Flight",
+  "type": "feat",
+  "img": "icons/magic/control/buff-flight-wings-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Because of your wings, you have a Flying Speed equal to your Walking Speed. You can’t use this Flying Speed if you’re wearing Medium or Heavy armor.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 1,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Pixie",
+    "identifier": "pixie-flight",
+    "activities": {},
+    "enchant": {},
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0"
+  }
+}

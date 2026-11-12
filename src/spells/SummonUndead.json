@@ -184,9 +184,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "5.3.3",
+    "systemVersion": "6.1.0",
     "createdTime": 1724425974030,
     "modifiedTime": 1780687984619,
     "lastModifiedBy": "dnd5ebuilder0000",

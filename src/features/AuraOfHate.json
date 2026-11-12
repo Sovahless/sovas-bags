@@ -115,7 +115,7 @@
       "system": {
         "changes": [
           {
-            "key": "system.bonuses.mwak.damage",
+            "key": "system.rolls.damage.mwak.bonus",
             "value": "+@abilities.cha.mod",
             "priority": null,
             "type": "add",
@@ -123,7 +123,7 @@
             "_id": "sovacngahself001"
           },
           {
-            "key": "system.bonuses.msak.damage",
+            "key": "system.rolls.damage.msak.bonus",
             "value": "+@abilities.cha.mod",
             "priority": null,
             "type": "add",
@@ -140,9 +140,9 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "14.367",
+        "coreVersion": "14.370",
         "systemId": "dnd5e",
-        "systemVersion": "6.0.1",
+        "systemVersion": "6.1.0",
         "createdTime": 1726320000000,
         "modifiedTime": 1726320000000,
         "lastModifiedBy": "sovasbagsbuilder",
@@ -169,7 +169,7 @@
       "system": {
         "changes": [
           {
-            "key": "system.bonuses.mwak.damage",
+            "key": "system.rolls.damage.mwak.bonus",
             "value": "+@origin.abilities.cha.mod",
             "priority": null,
             "type": "add",
@@ -177,7 +177,7 @@
             "_id": "sovacngahally001"
           },
           {
-            "key": "system.bonuses.msak.damage",
+            "key": "system.rolls.damage.msak.bonus",
             "value": "+@origin.abilities.cha.mod",
             "priority": null,
             "type": "add",
@@ -194,9 +194,9 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "14.367",
+        "coreVersion": "14.370",
         "systemId": "dnd5e",
-        "systemVersion": "6.0.1",
+        "systemVersion": "6.1.0",
         "createdTime": 1726320000000,
         "modifiedTime": 1726320000000,
         "lastModifiedBy": "sovasbagsbuilder",
@@ -213,9 +213,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "6.0.1",
+    "systemVersion": "6.1.0",
     "createdTime": 1726320000000,
     "modifiedTime": 1726320000000,
     "lastModifiedBy": "sovasbagsbuilder",

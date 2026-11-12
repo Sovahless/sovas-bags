@@ -1179,9 +1179,9 @@
   "_stats": {
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "14.364",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "5.3.0",
+    "systemVersion": "6.1.0",
     "createdTime": 1771452713996,
     "modifiedTime": 1771452713996,
     "lastModifiedBy": "dnd5ebuilder0000"

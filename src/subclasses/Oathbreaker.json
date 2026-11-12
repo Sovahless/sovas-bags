@@ -53,10 +53,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -82,10 +84,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -128,10 +132,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -157,10 +163,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -203,10 +211,12 @@
           "optional": false,
           "spell": {
             "ability": [],
-            "preparation": "always",
+            "method": "spell",
+            "prepared": 2,
             "uses": {
               "max": "",
-              "per": ""
+              "per": "",
+              "requireSlot": false
             }
           }
         },
@@ -248,9 +258,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "6.0.1",
+    "systemVersion": "6.1.0",
     "createdTime": 1726320000000,
     "modifiedTime": 1726320000000,
     "lastModifiedBy": "sovasbagsbuilder",

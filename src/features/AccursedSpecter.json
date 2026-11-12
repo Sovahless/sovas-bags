@@ -2,7 +2,7 @@
   "_id": "sovawlkAccursedS",
   "name": "Accursed Specter",
   "type": "feat",
-  "img": "icons/magic/death/undead-ghost-shadow-purple.webp",
+  "img": "icons/magic/death/undead-ghost-strike-white.webp",
   "system": {
     "description": {
       "value": "<p>You can curse the soul of a person on their death to serve you. When you slay a Humanoid, you can cause its spirit to rise from its corpse as a <strong>Specter</strong>. When the specter appears, it gains Temporary Hit Points equal to half your Warlock level (<code>floor(@classes.warlock.levels / 2)</code>). Roll initiative for the specter, which has its own turns. It obeys your verbal commands, and it gains a special bonus to its attack rolls equal to your Charisma modifier (<code>+@abilities.cha.mod</code>).</p><p>The specter remains in your service until the end of your next Long Rest, at which point it vanishes to the afterlife.</p><p>Once you bind a specter with this feature, you can’t use the feature again until you finish a Long Rest.</p>",
@@ -149,9 +149,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "6.0.1",
+    "systemVersion": "6.1.0",
     "createdTime": 1726320000000,
     "modifiedTime": 1726320000000,
     "lastModifiedBy": "sovasbagsbuilder",

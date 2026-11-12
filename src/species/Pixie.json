@@ -1,0 +1,241 @@
+{
+  "_id": "sovapixSpecies01",
+  "name": "Pixie",
+  "type": "race",
+  "img": "modules/sovas-bags/assets/Pixie.webp",
+  "system": {
+    "description": {
+      "value": "<p>Diminutive creatures of the Feywild, pixies are tiny winged fey whose curious nature and innate enchantment magic often lead them to wander the Material Plane.</p><h3>Pixie Traits</h3><p><strong>Creature Type:</strong> Fey<br><strong>Size:</strong> Tiny (2.5 × 2.5 ft. grid space; roughly 4 inches tall)<br><strong>Speed:</strong> 30 feet, Fly 30 feet<br><strong>Languages:</strong> Sylvan, plus one additional language of your choice (alongside Common from your character's background/origin)</p><p>@Embed[Compendium.sovas-bags.sovas-bags-features.Item.sovapixFlight001 caption=false cite=false nameStyle=inline]</p><p><em><strong>Fairy Magic.</strong></em> You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} cantrip. Starting at character level 3, you always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire} spell prepared. Starting at character level 5, you always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplPlantGrowt]{Plant Growth} spell prepared. You can cast each of those leveled spells once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast them using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (chosen when you select this species).</p><p>@Embed[Compendium.sovas-bags.sovas-bags-features.Item.sovapixCityFey01 caption=false cite=false nameStyle=inline]</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "sovapixAdvSize01": {
+        "_id": "sovapixAdvSize01",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "tiny"
+          ]
+        },
+        "level": 0,
+        "hint": "<p>Tiny (2.5 × 2.5 ft. grid space; roughly 4 inches tall)</p>",
+        "name": "",
+        "value": {},
+        "flags": {}
+      },
+      "sovapixAdvLang01": {
+        "_id": "sovapixAdvLang01",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:exotic:sylvan"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "level": 0,
+        "hint": "<p>You speak Sylvan plus one additional language of your choice.</p>",
+        "name": "Languages",
+        "value": {
+          "chosen": []
+        },
+        "flags": {}
+      },
+      "sovapixAdvFtr001": {
+        "_id": "sovapixAdvFtr001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovapixFlight001",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "level": 0,
+        "hint": "",
+        "name": "Pixie Traits",
+        "value": {},
+        "flags": {}
+      },
+      "sovapixAdvFtr005": {
+        "_id": "sovapixAdvFtr005",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovapixCityFey01",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "level": 5,
+        "hint": "",
+        "name": "City Fey",
+        "value": {},
+        "flags": {}
+      },
+      "sovapixAdvMag001": {
+        "_id": "sovapixAdvMag001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDruidcraft",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 2,
+            "method": "spell"
+          },
+          "sorting": "m"
+        },
+        "level": 0,
+        "hint": "<p>Choose Intelligence, Wisdom, or Charisma as your spellcasting ability for Fairy Magic.</p>",
+        "name": "Fairy Magic",
+        "value": {},
+        "flags": {}
+      },
+      "sovapixAdvMag003": {
+        "_id": "sovapixAdvMag003",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplFaerieFire",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 2,
+            "method": "spell"
+          },
+          "sorting": "m"
+        },
+        "level": 3,
+        "hint": "",
+        "name": "Fairy Magic",
+        "value": {},
+        "flags": {}
+      },
+      "sovapixAdvMag005": {
+        "_id": "sovapixAdvMag005",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplPlantGrowt",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 2,
+            "method": "spell"
+          },
+          "sorting": "m"
+        },
+        "level": 5,
+        "hint": "",
+        "name": "Fairy Magic",
+        "value": {},
+        "flags": {}
+      }
+    },
+    "movement": {
+      "units": "ft",
+      "hover": false,
+      "speeds": {
+        "walk": "30",
+        "fly": "30"
+      },
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "ft",
+      "special": "",
+      "ranges": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "fey",
+      "custom": "",
+      "subtype": ""
+    },
+    "identifier": "pixie"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0"
+  }
+}

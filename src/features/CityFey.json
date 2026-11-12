@@ -1,0 +1,188 @@
+{
+  "_id": "sovapixCityFey01",
+  "name": "City Fey",
+  "type": "feat",
+  "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+  "system": {
+    "description": {
+      "value": "<p>When you reach character level 5, you learn to blend into mortal settlements. As a <strong>Magic Action</strong>, you magically grow from <strong>Tiny</strong> to <strong>Medium</strong> size (roughly 5’7”). While Medium, you lose your wings and your <strong>Flying speed</strong> drops to <strong>0 ft.</strong></p><p>You can take another Magic Action to shrink back to Tiny size and regain your flight.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Sova's Bags",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 5,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [
+      "mgc"
+    ],
+    "requirements": "Pixie",
+    "identifier": "city-fey",
+    "activities": {
+      "sovapixActCityF1": {
+        "type": "utility",
+        "name": "Grow / Shrink",
+        "_id": "sovapixActCityF1",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "override": false,
+          "condition": "Magic Action"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "Magically grow to Medium size (fly speed 0 ft.) or shrink back to Tiny size."
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "sovapixEffCityF1",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "sovapixEffCityF1",
+      "name": "City Fey (Medium Size)",
+      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovapixCityFey01",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.size",
+            "value": "med",
+            "priority": null,
+            "type": "override",
+            "phase": "initial",
+            "_id": "sovapixChgSize01",
+            "conditions": "{}",
+            "replacement": ""
+          },
+          {
+            "key": "system.attributes.movement.speeds.fly",
+            "value": "0",
+            "priority": null,
+            "type": "override",
+            "phase": "initial",
+            "_id": "sovapixChgFly001",
+            "conditions": "{}",
+            "replacement": ""
+          }
+        ],
+        "rider": {
+          "statuses": []
+        },
+        "conditions": "{}",
+        "magical": true
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "<p>You have magically grown to Medium size (roughly 5’7”). While Medium, you lose your wings and your Flying speed drops to 0 ft.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0"
+  }
+}

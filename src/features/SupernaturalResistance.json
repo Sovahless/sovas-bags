@@ -2,7 +2,7 @@
   "_id": "sovapdnSupernatR",
   "name": "Supernatural Resistance",
   "type": "feat",
-  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-purple.webp",
+  "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-purple-orange.webp",
   "system": {
     "description": {
       "value": "<p>You gain resistance to bludgeoning, piercing, and slashing damage.</p>",
@@ -32,7 +32,7 @@
   "effects": [
     {
       "name": "Supernatural Resistance",
-      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-purple.webp",
+      "img": "icons/magic/defensive/shield-barrier-flaming-pentagon-purple-orange.webp",
       "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovapdnSupernatR",
       "duration": {
         "value": null,
@@ -80,9 +80,9 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "14.367",
+        "coreVersion": "14.370",
         "systemId": "dnd5e",
-        "systemVersion": "6.0.1",
+        "systemVersion": "6.1.0",
         "createdTime": 1726320000000,
         "modifiedTime": 1726320000000,
         "lastModifiedBy": "sovasbagsbuilder",
@@ -99,9 +99,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "14.367",
+    "coreVersion": "14.370",
     "systemId": "dnd5e",
-    "systemVersion": "6.0.1",
+    "systemVersion": "6.1.0",
     "createdTime": 1726320000000,
     "modifiedTime": 1726320000000,
     "lastModifiedBy": "sovasbagsbuilder",
