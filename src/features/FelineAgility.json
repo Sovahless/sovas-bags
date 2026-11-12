@@ -1,0 +1,183 @@
+{
+  "_id": "sovatbxAgility01",
+  "name": "Feline Agility",
+  "type": "feat",
+  "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your Speed until the end of the turn.</p><p>Once you use this trait, you can’t use it again until you move 0 feet on one of your turns.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM / Sova's Bags (2024)",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "uses": {
+      "max": "1",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 1,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Tabaxi",
+    "identifier": "feline-agility",
+    "activities": {
+      "sovatbxActAgil01": {
+        "type": "utility",
+        "name": "Burst of Speed",
+        "_id": "sovatbxActAgil01",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "When you move on your turn in combat (no action required)"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "Speed doubled until the end of your turn. Regain use after moving 0 ft on a turn."
+        },
+        "duration": {
+          "units": "turns",
+          "value": "1",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "sovatbxEffAgil01",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": ""
+      }
+    },
+    "enchant": {},
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "sovatbxEffAgil01",
+      "name": "Feline Agility",
+      "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+      "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovatbxAgility01",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.multiplier",
+            "value": 2,
+            "priority": null,
+            "type": "multiply",
+            "phase": "initial",
+            "_id": "sovatbxChgMult01",
+            "conditions": "{}"
+          }
+        ],
+        "rider": {
+          "statuses": []
+        },
+        "conditions": "{}",
+        "magical": false
+      },
+      "disabled": false,
+      "duration": {
+        "value": 1,
+        "units": "turns",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "<p>Your Speed is doubled until the end of the current turn.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0"
+  }
+}

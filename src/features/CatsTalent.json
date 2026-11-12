@@ -1,0 +1,72 @@
+{
+  "_id": "sovatbxTalent001",
+  "name": "Cat's Talent",
+  "type": "feat",
+  "img": "icons/creatures/mammals/cat-hunched-glowing-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You have proficiency in the <strong>Perception</strong> and <strong>Stealth</strong> skills.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM / Sova's Bags (2024)",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 1,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Tabaxi",
+    "identifier": "cats-talent",
+    "activities": {},
+    "enchant": {},
+    "advancement": {
+      "sovatbxAdvSkil01": {
+        "_id": "sovatbxAdvSkil01",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc",
+            "skills:ste"
+          ],
+          "choices": []
+        },
+        "level": 0,
+        "hint": "<p>You have proficiency in the Perception and Stealth skills.</p>",
+        "name": "",
+        "value": {
+          "chosen": []
+        },
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "_id": "sovatbxSpecies01",
+  "name": "Tabaxi",
+  "type": "race",
+  "img": "icons/creatures/mammals/humanoid-cat-skulking-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Created by the Cat Lord—a divine being of the Upper Planes—to blend the qualities of humanoids and cats, tabaxi are a varied people in both attitude and appearance. Swift, curious, and observant, they travel far and wide to gather stories, relics, and experiences.</p><p><em>Adapted to D&amp;D 2024 (5.5e) rules: ability score increases and starting languages come from your character's Background and origin choices rather than species traits.</em></p><h3>Tabaxi Traits</h3><p><strong>Creature Type:</strong> Humanoid<br><strong>Size:</strong> Medium (about 5–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species<br><strong>Speed:</strong> 30 feet, and you have a Climb Speed equal to your Speed (30 feet)</p><p>As a Tabaxi, you have these special traits.</p><p><em><strong>Darkvision.</strong></em> You have &amp;Reference[Darkvision] with a range of 60 feet.</p><p>@Embed[Compendium.sovas-bags.sovas-bags-features.Item.sovatbxClaws0001 caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.sovas-bags.sovas-bags-features.Item.sovatbxTalent001 caption=false cite=false nameStyle=inline]</p><p>@Embed[Compendium.sovas-bags.sovas-bags-features.Item.sovatbxAgility01 caption=false cite=false nameStyle=inline]</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MPMM / Sova's Bags (2024)",
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "license": ""
+    },
+    "advancement": {
+      "sovatbxAdvSize01": {
+        "_id": "sovatbxAdvSize01",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med",
+            "sm"
+          ]
+        },
+        "level": 0,
+        "hint": "<p>Medium (about 5–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species.</p>",
+        "name": "",
+        "value": {},
+        "flags": {}
+      },
+      "sovatbxAdvFtr001": {
+        "_id": "sovatbxAdvFtr001",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovatbxClaws0001",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovatbxTalent001",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sovas-bags.sovas-bags-features.Item.sovatbxAgility01",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "m"
+        },
+        "level": 0,
+        "hint": "",
+        "name": "Tabaxi Traits",
+        "value": {},
+        "flags": {}
+      }
+    },
+    "movement": {
+      "units": "ft",
+      "hover": false,
+      "speeds": {
+        "walk": "30",
+        "climb": "30"
+      },
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": "ft",
+      "special": "",
+      "ranges": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": ""
+    },
+    "identifier": "tabaxi"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0"
+  }
+}
