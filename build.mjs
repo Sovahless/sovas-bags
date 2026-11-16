@@ -34,6 +34,7 @@ const PACK_MAPPINGS = [
   { src: 'src/species', dest: 'packs/sovas-bags-species', docType: 'items' },
   { src: 'src/features', dest: 'packs/sovas-bags-features', docType: 'items' },
   { src: 'src/items', dest: 'packs/sovas-bags-items', docType: 'items' },
+  { src: 'src/tables', dest: 'packs/sovas-bags-tables', docType: 'tables' },
   { src: 'src/actors', dest: 'packs/sovas-bags-actors', docType: 'actors' }
 ];
 
@@ -58,6 +59,7 @@ async function compilePack(sourceDir, destDir, docType) {
   let docCount = 0;
   let effectCount = 0;
   let itemCount = 0;
+  let resultCount = 0;
 
   for (const f of files) {
     if (!f.endsWith('.json')) continue;
@@ -112,6 +114,22 @@ async function compilePack(sourceDir, destDir, docType) {
       data.items = itemIds;
     }
 
+    // Embedded results (for roll tables)
+    if (Array.isArray(data.results)) {
+      const resultIds = [];
+      for (const res of data.results) {
+        if (typeof res === 'object' && res !== null && res._id) {
+          const resKey = `!${docType}.results!${data._id}.${res._id}`;
+          await db.put(resKey, res);
+          resultCount++;
+          resultIds.push(res._id);
+        } else if (typeof res === 'string') {
+          resultIds.push(res);
+        }
+      }
+      data.results = resultIds;
+    }
+
     const key = `!${docType}!${data._id}`;
     if (!data._stats) {
       data._stats = {
@@ -157,7 +175,8 @@ async function compilePack(sourceDir, destDir, docType) {
 
   const subInfo = [
     effectCount ? `${effectCount} effects` : null,
-    itemCount ? `${itemCount} items` : null
+    itemCount ? `${itemCount} items` : null,
+    resultCount ? `${resultCount} results` : null
   ].filter(Boolean).join(', ');
   console.log(`  ✓ ${path.basename(destDir)}: ${docCount} docs${subInfo ? ' (' + subInfo + ')' : ''}`);
 }

@@ -1,0 +1,1133 @@
+{
+  "_id": "sovahpTbl3Negat0",
+  "name": "Hocus Pocus 3 — Poisse Cosmique",
+  "img": "icons/magic/symbols/rune-sigil-red-orange.webp",
+  "description": "Table 3 (Pure Négatif / Backfires) de Hocus Pocus v2.0 — 1d100.",
+  "results": [
+    {
+      "_id": "hpT3Res000000001",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Retour de Flamme",
+      "description": "Une décharge magique explose dans vos mains : vous subissez [[/r 3d6]] dégâts de Force.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000002",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Boulet de Canon Vertical",
+      "description": "Vous êtes propulsé à **20 ft en l'air** puis retombez immédiatement au sol : vous subissez [[/r 2d6]] dégâts contondants et êtes **À Terre (*Prone*)**.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000003",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Aveuglé par les Paillettes",
+      "description": "Un flash rose aveuglant vous explose au visage : vous êtes **Aveuglé (*Blinded*)** jusqu'à la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000004",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Métamorphose en Mouton",
+      "description": "Vous êtes transformé en mouton bêlant et inoffensif jusqu'au début de votre prochain tour (CA 10, vitesse 10 ft, impossible de parler ou d'attaquer ; revenir en forme normale si vous prenez des dégâts).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000005",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Mains Beurrées",
+      "description": "Vos mains deviennent glissantes comme du savon : réussissez un JdS DEX DD 14 ou vous lâchez immédiatement ce que vous tenez à vos pieds.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000006",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Cible Aimantée",
+      "description": "Une flèche fluo clignotante apparaît au-dessus de votre tête jusqu'à la fin de votre prochain tour : **toutes les attaques contre vous ont l'Avantage**.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000007",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Silence Personnel",
+      "description": "Une sphère de *Silence* de 10 ft centrée sur vous vous suit jusqu'à la fin de votre prochain tour (impossible de lancer des sorts à composante Verbale).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000008",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vulnérabilité Fragile",
+      "description": "Jusqu'au début de votre prochain tour, vous avez la **Vulnérabilité** au premier dégât que vous subissez (dégâts doublés).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000009",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Boule de Feu sur Soi",
+      "description": "Vous explosez avec *Fireball* ([[/r 6d6]] feu, JdS DEX DD 14) centrée sur vous-même (vous avez le Désavantage au JdS).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000010",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Ralentissement Poisseux",
+      "description": "Des tentacules de mélasse collante vous retiennent : votre vitesse tombe à **0 ft** jusqu'à la fin de votre prochain tour et vous perdez votre Réaction.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000011",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Hoquet d'Amnésie",
+      "description": "Vous oubliez le fonctionnement de votre dernier sort ou aptitude : impossible de le réutiliser pendant 1 round.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000012",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Malédiction de Maladresse",
+      "description": "Vous avez le **Désavantage** à tous vos jets d'attaque et de sauvegarde jusqu'à la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000013",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Garde-Robe Volatilisée",
+      "description": "Vos vêtements non-magiques disparaissent dans un nuage de fumée rose pendant 1 minute (vos armures restent, mais votre dignité subit [[/r 1d6]] dégâts psychiques).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000014",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Poids Plume Inversé",
+      "description": "Vous devenez lourd comme une enclume jusqu'à la fin de votre prochain tour : votre vitesse est divisée par 2 et vous avez -3 à la CA.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000015",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bavardage Incontrôlable",
+      "description": "Vous révélez involontairement votre prochain plan d'attaque à voix haute aux ennemis (+2 à leur CA contre vous ce tour).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000016",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Drain d'Énergie",
+      "description": "Vous perdez un emplacement de sort disponible le plus bas (ou subissez [[/r 2d8]] dégâts nécrotiques si vous n'en avez pas).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000017",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Foudre Attirée",
+      "description": "Un éclair miniature tombe du plafond sur votre tête : [[/r 3d8]] dégâts de Foudre (JdS DEX DD 13 pour moitié).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000018",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Confusion Passagère",
+      "description": "Jusqu'à la fin de votre prochain tour, au début de votre tour lancez [[/r 1d4]] : sur 1-2 vous ne pouvez ni bouger ni agir, sur 3-4 vous attaquez la créature la plus proche (même alliée !).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000019",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Somnolence Subite",
+      "description": "Vous tombez **Endormi / Inconscient** sur place pendant 1 round (se réveille immédiatement si quelqu'un vous secoue ou vous inflige des dégâts).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000020",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Rétrécissement Humiliant",
+      "description": "Vous rétrécissez à une taille de 15 cm (Tiny) pendant 1 minute : vos armes infligent la moitié des dégâts et vous avez le Désavantage en Force.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000021",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Allergie au Métal",
+      "description": "Toutes les armures ou armes métalliques que vous touchez deviennent brûlantes pendant 1 round : subissez [[/r 2d4]] dégâts de feu si vous en portez.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000022",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Inversion Gauche/Droite",
+      "description": "Votre cerveau inverse gauche et droite jusqu'à la fin de votre prochain tour (déplacement divisé par 2, -2 aux jets d'attaque).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000023",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pluie d'Acide Personnelle",
+      "description": "Un petit nuage noir vert vous suit pendant 1 round et verse de l'acide uniquement sur vous : [[/r 2d6]] dégâts d'Acide.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000024",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Téléportation Pire Endroit",
+      "description": "Vous vous téléportez instantanément de **15 ft** droit vers l'ennemi le plus menaçant (ou dans le fossé le plus proche).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000025",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Terreur Panique",
+      "description": "Vous êtes **Effrayé (*Frightened*)** par la créature hostile la plus proche jusqu'à la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000026",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        52
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pattes de Grenouille",
+      "description": "Vos jambes deviennent celles d'une grenouille pendant 1 minute : vous ne pouvez vous déplacer qu'en sautant maladroitement (vitesse divisée par 2).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000027",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        54
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Armure Rouillée",
+      "description": "Votre CA baisse de **-2** jusqu'à ce qu'un allié ou vous preniez une action (ou 1 minute après le combat) pour secouer la poussière rouillée.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000028",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        56
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bouche Collée",
+      "description": "Vos lèvres se soudent magiquement jusqu'à la fin de votre prochain tour : impossible de parler, boire une potion ou lancer un sort Verbal.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000029",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        58
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échec Critique Automatique",
+      "description": "Votre tout prochain jet d'attaque ou de compétence devient automatiquement un **1 naturel** (si lancé dans la minute).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000030",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        59,
+        60
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Siphon de PV pour l'Ennemi",
+      "description": "Vous perdez [[/r 2d6]] PV, et l'ennemi le plus proche à 30 ft récupère ce même montant en PV !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000031",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        62
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Toux de Fumée",
+      "description": "Vous êtes **Empoisonné (*Poisoned*)** jusqu'à la fin de votre prochain tour tant vous toussez des nuages violets.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000032",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        64
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Écho Sonore Assourdissant",
+      "description": "Un bang supersonique éclate à vos oreilles : vous êtes **Assourdi (*Deafened*)** pendant 1 minute et subissez [[/r 2d6]] dégâts de Tonnerre.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000033",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        66
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Glissade Verglacée",
+      "description": "Une plaque de glace de 5 ft apparaît juste sous vos pieds : JdS DEX DD 15 ou vous tombez **À Terre (*Prone*)** et terminez votre déplacement.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000034",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        68
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pillage de Sac",
+      "description": "Une main spectrale jette aléatoirement 1 objet non équipé de votre sac au sol à 15 ft de distance.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000035",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        70
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Peur des Armes",
+      "description": "Votre arme pousse un cri terrifié et refuse de frapper jusqu'à la fin de votre tour (vous devez utiliser une autre arme ou un sort).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000036",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        72
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Froid Glacial",
+      "description": "Vous êtes gelé jusqu'aux os : [[/r 2d8]] dégâts de Froid et votre vitesse est réduite de 15 ft pendant 1 round.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000037",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        74
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Lumière Révélatrice Maudite",
+      "description": "Un projecteur divin braqué sur vous vous empêche de vous cacher pendant 10 minutes et donne **-2 à vos JdS**.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000038",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        76
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Choc Psychique",
+      "description": "Une voix moqueuse vous insulte directement dans votre crâne : [[/r 3d6]] dégâts Psychiques.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000039",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        78
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Gravité Écrasante",
+      "description": "Vous subissez 1 niveau d'**Épuisement (*Exhaustion*)** temporaire qui disparaît après 1 minute.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000040",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        80
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Hémorragie de Mana",
+      "description": "Si vous êtes concentré sur un sort, votre Concentration est **immédiatement brisée**. Sinon vous perdez [[/r 2d6]] PV.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000041",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        82
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échange de Malus",
+      "description": "Vous perdez **-4 à votre prochain jet** et êtes bloqué sur place par des racines invisibles jusqu'à la fin de ce tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000042",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        83,
+        84
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Transformation en Poulpe Terrestre",
+      "description": "Vos bras deviennent des tentacules mous sans force pendant 1 round : -3 aux jets d'attaque et dégâts.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000043",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        86
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pluie de Flèches Fantômes",
+      "description": "Des flèches fantomatiques pleuvent uniquement sur votre case : [[/r 3d6]] dégâts perforants (JdS DEX DD 13 pour moitié).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000044",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        87,
+        88
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Givre sur les Yeux",
+      "description": "Vos cils gèlent : malus de **-5 en Perception** et toutes les cibles bénéficient d'un demi-abri (*+2 CA*) contre vous pendant 1 round.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000045",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        90
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Dette Karma",
+      "description": "La prochaine attaque ennemie qui vous vise avant votre prochain tour devient automatiquement un **Coup Critique** si elle touche !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000046",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        92
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Chute de Piano Spectral",
+      "description": "Un piano translucide tombe du ciel droit sur vous : [[/r 4d6]] dégâts contondants et vous êtes **À Terre (*Prone*)** (JdS DEX DD 14 pour moitié et rester debout).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000047",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        94
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Marque de la Proie",
+      "description": "Tous les ennemis gagnent +1d4 dégâts contre vous jusqu'à la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000048",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        95,
+        96
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Épuisement Éclair",
+      "description": "Vous perdez immédiatement le reste de votre tour actuel et votre **Réaction**.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000049",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Double Poisse !",
+      "description": "La poisse s'acharne : subissez [[/r 2d6]] dégâts nécrotiques ET relancez immédiatement sur cette même table de **Poisse Cosmique** !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT3Res000000050",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "CATASTROPHE TOTALE !",
+      "description": "Vous subissez [[/r 4d8]] dégâts de Force, tombez **À Terre (*Prone*)**, êtes **Aveuglé** 1 round, et un canard en feu vous poursuit pendant 1 minute.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "formula": "1d100",
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "sovas-bags": {
+      "hocusPocus": {
+        "order": 3,
+        "category": "negative",
+        "label": "Pure Négatif"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder"
+  }
+}

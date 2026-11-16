@@ -16,6 +16,12 @@
   "esmodules": [
     "scripts/sovas-bags.mjs"
   ],
+  "styles": [
+    {
+      "src": "styles/sovas-bags.css",
+      "layer": "modules"
+    }
+  ],
   "languages": [
     {
       "lang": "en",
@@ -142,6 +148,17 @@
           ]
         }
       }
+    },
+    {
+      "name": "sovas-bags-tables",
+      "label": "Sova's Bags: Wild Magic Tables",
+      "path": "packs/sovas-bags-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "relationships": {
@@ -177,6 +194,7 @@
         "sovas-bags-species",
         "sovas-bags-features",
         "sovas-bags-items",
+        "sovas-bags-tables",
         "sovas-bags-actors"
       ]
     }

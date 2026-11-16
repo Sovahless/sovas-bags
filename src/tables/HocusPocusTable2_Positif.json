@@ -1,0 +1,1133 @@
+{
+  "_id": "sovahpTbl2Posit0",
+  "name": "Hocus Pocus 2 — Bénédiction Féerique",
+  "img": "icons/magic/symbols/clover-luck-white-green.webp",
+  "description": "Table 2 (Pure Positif / Boons) de Hocus Pocus v2.0 — 1d100.",
+  "results": [
+    {
+      "_id": "hpT2Res000000001",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vitalité Dorée",
+      "description": "Vous gagnez immédiatement [[/r 2d10]] Points de Vie temporaires dorés qui brillent pendant 1 heure.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000002",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Régénération Éclair",
+      "description": "Vous récupérez immédiatement [[/r 3d8 + 4]] Points de Vie.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000003",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Récupération Arcanique",
+      "description": "Vous regagnez un emplacement de sort dépensé de niveau 3 ou inférieur (ou +1 utilisation d'une aptitude à repos court).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000004",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Égide Féerique",
+      "description": "Un bouclier d'énergie scintillante vous entoure : vous gagnez **+3 à la CA** jusqu'au début de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000005",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pas du Zéphyr",
+      "description": "Votre vitesse est **doublée** jusqu'à la fin de ce tour et vos déplacements ne provoquent aucune attaque d'opportunité.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000006",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Chance Insolente",
+      "description": "Vous avez l'**Avantage** à tous vos jets d'attaque, de caractéristique et de sauvegarde jusqu'au début de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000007",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Surcharge de Frappe",
+      "description": "Votre prochaine attaque qui touche avant la fin de votre prochain tour inflige [[/r 3d6]] dégâts de Force supplémentaires.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000008",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Téléportation Taktique",
+      "description": "Vous pouvez immédiatement vous téléporter jusqu'à **30 ft** vers un espace inoccupé que vous pouvez voir.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000009",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Invisibilité Instantanée",
+      "description": "Vous devenez **Invisible** jusqu'à la fin de votre prochain tour ou jusqu'à ce que vous attaquiez / lanciez un sort.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000010",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Purification Totale",
+      "description": "Une condition négative qui vous affecte (ou un allié à 30 ft) prend fin immédiatement (*Poisoned*, *Frightened*, *Charmed*, *Blinded*, *Deafened* ou *Paralyzed*).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000011",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Critique Béni",
+      "description": "Jusqu'à la fin de votre prochain tour, vos jets d'attaque obtiennent un **Coup Critique sur 18–20**.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000012",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Second Souffle Cosmique",
+      "description": "Vous pouvez immédiatement effectuer une **Action** supplémentaire ce tour-ci (Attaque [une seule attaque], Dash, Disengage, Dodge ou Use an Object).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000013",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Aura de Soin de Groupe",
+      "description": "Vous et jusqu'à 3 alliés à moins de 30 ft récupérez chacun [[/r 2d6]] PV.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000014",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Résistance Universelle",
+      "description": "Vous gagnez la **Résistance à tous les dégâts** (sauf Psychique) jusqu'au début de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000015",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Réflexes Parfaits",
+      "description": "Votre initiative augmente de +5 pour le reste du combat (ou vous regagnez votre Réaction si vous l'aviez dépensée).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000016",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Lame / Sort Radiant",
+      "description": "Pendant 1 minute, vos attaques et sorts infligent +[[/r 1d6]] dégâts Radiants supplémentaires une fois par tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000017",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vol des Fées",
+      "description": "Vous gagnez une vitesse de **Vol de 30 ft** (stationnaire) jusqu'à la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000018",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Dés Pipés du Destin",
+      "description": "Notez ce jet : vous pouvez remplacer le résultat d'un d20 que vous (ou un ennemi à 30 ft) venez de lancer par un **20 naturel** une fois dans la minute.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000019",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bénédiction Collective",
+      "description": "Vous et vos alliés à moins de 30 ft bénéficiez de l'effet du sort *Bless* (+[[/r 1d4]] aux attaques et JdS) pendant 1 minute sans Concentration.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000020",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Réservoir de Magie",
+      "description": "Le prochain sort que vous lancez avant la fin de votre prochain tour ne consomme pas d'emplacement de sort (niveau 3 max).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000021",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Peau de Diamant",
+      "description": "Jusqu'au début de votre prochain tour, les attaques contre vous ont le **Désavantage** et vous ne pouvez pas être mis À Terre (*Prone*).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000022",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Éclair Guidé",
+      "description": "Un rayon lumineux frappe l'ennemi le plus proche à 60 ft : [[/r 4d6]] dégâts Radiants automatiques (aucun jet requis), et l'attaque suivante contre lui a l'Avantage.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000023",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Esprit d'Acier",
+      "description": "Vous réussissez automatiquement votre prochain Jet de Sauvegarde (ou jet de Concentration) dans la minute qui vient.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000024",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Soin de Poche Rapide",
+      "description": "Vous et l'allié le plus blessé à moins de 30 ft récupérez chacun [[/r 2d8 + 2]] PV.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000025",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Lien Spirituel",
+      "description": "Tous les dégâts que vous infligez ce tour soignent l'allié le plus proche de la moitié du montant infligé.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000026",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        52
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Arme Enchantée Express",
+      "description": "Votre arme (ou focus) devient **+2** pendant 1 minute et est considérée comme magique.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000027",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        54
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Déplacement Spatial Libre",
+      "description": "Vous pouvez vous téléporter de **15 ft** après chaque attaque réussie jusqu'à la fin de votre tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000028",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        56
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Aura d'Inspiration",
+      "description": "Chaque allié à 30 ft gagne un dé d'Inspiration de [[/r 1d8]] utilisable dans les 10 prochaines minutes.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000029",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        58
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bouclier Miroir",
+      "description": "La prochaine attaque qui vous touche ce round renvoie [[/r 2d10]] dégâts de Force à l'attaquant.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000030",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        59,
+        60
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vision Vraie Éclair",
+      "description": "Vous gagnez **Truesight 60 ft** pendant 1 minute (vous voyez les illusions, invisibilités et métamorphes).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000031",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        62
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vigueur Sans Limite",
+      "description": "Si vos PV tombent à 0 avant la fin de votre prochain tour, vous restez à **1 PV** à la place et gagnez [[/r 1d10]] PV temporaires.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000032",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        64
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Flambée Héroïque",
+      "description": "Vous gagnez immédiatement **1 point d'Inspiration Héroïque** et +2 à tous vos jets jusqu'à la fin de votre tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000033",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        66
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Saut Dimensionnel d'Allié",
+      "description": "Vous pouvez téléporter instantanément jusqu'à **2 alliés** volontaires à moins de 60 ft sur 30 ft chacun vers des cases sûres.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000034",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        68
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Brise Curative",
+      "description": "Une vague d'énergie émeraude soigne [[/r 1d8]] PV à tous les alliés dans un rayon de 30 ft.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000035",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        70
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Frappe Fantôme",
+      "description": "Votre prochaine attaque de mêlée a une allonge de **30 ft** et ignore les abris (*Cover*).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000036",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        72
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Neutralisation Arcanique",
+      "description": "Vous dissipez automatiquement un sort ou effet magique hostile actif sur vous ou dans un rayon de 30 ft (comme *Dispel Magic* niv. 4).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000037",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        74
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Énergie Débordante",
+      "description": "Vous pouvez lancer un **Sort mineur (Cantrip)** immédiatement dans la même Action Bonus.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000038",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        76
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bouclier de Chance",
+      "description": "Les ennemis qui vous ciblent ont un malus de -2 aux jets d'attaque pendant 1 minute (ou jusqu'à ce que vous soyez touché).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000039",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        78
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Trésor Inattendu",
+      "description": "Une bourse en velours contenant [[/r 4d10]] pièces d'or apparaît dans votre sac, plus une potion de soin mineure ([[/r 2d4 + 2]]).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000040",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        80
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pas de Temps",
+      "description": "Vous ignorez tous les terrains difficiles, sorts de ralentissement et effets entravants jusqu'à la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000041",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        82
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Coup de Grâce Divin",
+      "description": "Si votre prochaine attaque touche, elle inflige le **maximum possible de ses dés de dégâts** (sans relancer).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000042",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        83,
+        84
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Chaleur Bienveillante",
+      "description": "Vous gagnez une immunité temporaire aux dégâts de Feu et de Froid pendant 1 minute.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000043",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        86
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Coup Double",
+      "description": "Lorsque vous effectuez une attaque ou un sort à cible unique ce tour, vous pouvez viser **une seconde cible** à portée gratuitement.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000044",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        87,
+        88
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Regard Perçant",
+      "description": "Vous connaissez automatiquement les faiblesses/résistances et PV actuels exacts de l'ennemi que vous regardez.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000045",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        90
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Sérénité Absolue",
+      "description": "Votre Concentration ne peut pas être brisée par des dégâts jusqu'à la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000046",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        92
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vague de Force Alliée",
+      "description": "Tous les ennemis dans un rayon de 15 ft autour de vous doivent réussir un JdS FOR DD 14 ou être repoussés de 15 ft et mis À Terre (*Prone*).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000047",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        94
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bénédiction de Précision",
+      "description": "Votre prochaine attaque touche automatiquement sur tout résultat différent d'un 1 naturel.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000048",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        95,
+        96
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Aura d'Élan",
+      "description": "Tous vos alliés à 30 ft gagnent **+15 ft de vitesse** jusqu'à la fin de leur prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000049",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Grâce Royale",
+      "description": "Vous récupérez [[/r 4d6]] PV ET pouvez relancer n'importe quel dé raté avant la fin de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT2Res000000050",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "JACKPOT COSMIQUE !",
+      "description": "Vous récupérez **[[/r 4d10]] PV**, gagnez **[[/r 2d10]] PV temporaires**, récupérez un emplacement de sort (niv. 4 max), et gagnez une **Action supplémentaire** ce tour !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "formula": "1d100",
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "sovas-bags": {
+      "hocusPocus": {
+        "order": 2,
+        "category": "positive",
+        "label": "Pure Positif"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder"
+  }
+}

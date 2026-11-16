@@ -1,0 +1,1133 @@
+{
+  "_id": "sovahpTbl1Chaos0",
+  "name": "Hocus Pocus 1 — Chaos & Kiff-Kiff",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "description": "Table 1 (Neutre / Chaotique / Absurde) de Hocus Pocus v2.0 — 1d100.",
+  "results": [
+    {
+      "_id": "hpT1Res000000001",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échange Spatial",
+      "description": "Vous échangez instantanément de position avec la créature la plus proche à moins de 30 ft (allié ou ennemi), sans déclencher d'attaque d'opportunité.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000002",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Peau Arc-en-Ciel Fluo",
+      "description": "Votre peau brille de couleurs néon changeantes pendant 10 minutes. Vous émettez une lumière vive sur 15 ft et faible sur 15 ft supplémentaires (Disadvantage en Stealth, Advantage en Performance).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000003",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pluie de Grenouilles",
+      "description": "Une pluie de grenouilles inoffensives tombe dans un rayon de 20 ft autour de vous jusqu'à la fin de votre prochain tour. La zone devient un terrain difficile, mais les grenouilles coassent en chœur.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000004",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Boule de Feu Pyromane",
+      "description": "Vous lancez *Fireball* ([[/r 8d6]] feu) centrée sur vous-même, MAIS vous gagnez instantanément la Résistance aux dégâts de Feu jusqu'à la fin du tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000005",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Voix d'Opéra Tonitruante",
+      "description": "Pendant 1 heure, vous ne pouvez parler qu'en chantant de l'opéra à plein volume (+2 Intimidation, impossible de chuchoter).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000006",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Canard Explosif",
+      "description": "Un canard en plastique géant et brillant apparaît à 5 ft de vous. Au début de votre prochain tour, il explose en confettis et force ([[/r 2d6]] force dans 10 ft, JdS DEX DD 13 pour moitié).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000007",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Armes en Poissons Frais",
+      "description": "Toutes les armes tenues à moins de 15 ft de vous se transforment en gros saumons glissants jusqu'à la fin de votre prochain tour (elles infligent exactement les mêmes dégâts, mais avec un bruit de « splat »).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000008",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Gravité Capricieuse",
+      "description": "Pendant 1 round, la gravité s'inverse dans une sphère de 15 ft autour de vous pour les objets non tenus et les créatures pesant moins de 100 lb (tout flotte à 10 ft du sol).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000009",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Barbe de Plumes",
+      "description": "Une immense barbe faite de plumes de paon pousse sur votre visage (ou celui de la cible la plus proche). Elle explose en éternuement inoffensif si quelqu'un la touche.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000010",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Écho Retardé",
+      "description": "Pendant 1 minute, chaque phrase que vous prononcez se répète toute seule avec une voix de gobelin aiguë 2 secondes plus tard.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000011",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Miroir de Géant / Nain",
+      "description": "Lancez [[/r 1d2]] : sur **1**, vous gagnez une taille au-dessus (+1d4 dégâts au corps à corps) pendant 1 min ; sur **2**, vous réduisez d'une taille (-1d4 dégâts, +2 CA) pendant 1 min.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000012",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Hoquet Téléporteur",
+      "description": "Pendant 1 minute, chaque fois que vous parlez, lancez [[/r 1d6]] : sur 1, vous vous téléportez aléatoirement de 10 ft dans une direction ([[/r 1d8]]).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000013",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Paillettes Éternelles",
+      "description": "Un nuage de paillettes magiques recouvre tout le monde à moins de 15 ft pendant 1 heure. Impossible d'être Invisible dans cette zone pendant 1 round.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000014",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Gravitation Sociale",
+      "description": "Toutes les créatures à moins de 20 ft (alliés et ennemis) doivent réussir un JdS FOR DD 12 ou être tirées de 5 ft vers vous.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000015",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bulle de Savon Protectrice",
+      "description": "Une bulle de savon géante vous entoure : +3 CA contre la prochaine attaque, mais elle éclate au premier coup en produisant un bruit de pétard assourdissant.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000016",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Inversion des Chaussures",
+      "description": "Vos chaussures (et celles de la créature la plus proche) se retrouvent aux mauvais pieds pendant 1 minute (-5 ft de vitesse, mais style impeccable).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000017",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Esprit d'Écureuil",
+      "description": "Un écureuil spectral vous juge sévèrement depuis votre épaule pendant 10 minutes. Il pousse des cris aigus si quelqu'un rate une attaque.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000018",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Danse Involontaire",
+      "description": "Vous et l'ennemi le plus proche à moins de 30 ft devez danser la gigue sur place pendant 1 round (vitesse réduite de moitié, aucun malus aux attaques).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000019",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Météo de Poche",
+      "description": "Un petit nuage personnel suit votre tête pendant 10 minutes : il pleut doucement sur vous s'il fait beau, ou projette un mini soleil s'il pleut.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000020",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Changement de Couleur des Sorts",
+      "description": "Votre prochain sort ou attaque inflige son type de dégâts normal, mais avec l'apparence visuelle de fleurs, de lasers roses ou de fromages volants (au choix du MJ).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000021",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Double ou Quitte",
+      "description": "Lancez [[/r 1d2]] : sur **1**, vous gagnez [[/r 2d6]] PV temporaires ; sur **2**, la créature hostile la plus proche gagne [[/r 2d6]] PV temporaires.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000022",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Gravité Latérale",
+      "description": "Pour le reste de ce tour uniquement, vous pouvez marcher sur les murs comme si c'était le sol.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000023",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Éternuement Arcanique",
+      "description": "Vous éternuez une onde de choc (cône de 15 ft) qui repousse tout le monde (alliés et ennemis) de 10 ft sur un JdS FOR DD 13 raté. Aucun dégât.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000024",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bavardage des Objets",
+      "description": "Votre arme (ou focus arcanique) prend vie vocalement pendant 10 minutes et commente chacun de vos jets de dés de façon sarcastique.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000025",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Chapeau Mystère",
+      "description": "Un haut-de-forme beaucoup trop grand apparaît sur votre tête. Si vous mettez la main dedans une fois, vous en sortez un lapin vivant ou une chaussette mouillée ([[/r 1d2]]).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000026",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        52
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Rotation à 180°",
+      "description": "Toutes les créatures dans un rayon de 30 ft tournent instantanément sur elles-mêmes de 180 degrés (purement comique, mais désoriente les archers pendant 1 seconde).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000027",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        54
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Odeur de Tarte aux Pommes",
+      "description": "Une odeur délicieuse de tarte chaude embaume toute la pièce (60 ft) pendant 1 heure. Les créatures affamées ont -1 en Perception car elles cherchent la cuisine.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000028",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        56
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Aura d'Électricité Statique",
+      "description": "Vos cheveux se dressent tout droits pendant 10 minutes. La première créature qui vous touche ce round subit [[/r 1d4]] dégâts de foudre et dit « aïe ».",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000029",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        58
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échange de Chapeaux / Casques",
+      "description": "Votre casque/couvre-chef échange sa place avec celui de la créature la plus proche qui en porte un (ou avec un seau apparu de nulle part).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000030",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        59,
+        60
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Voix de Tonnerre / Souris",
+      "description": "Lancez [[/r 1d2]] : pendant 10 min, votre voix résonne comme un géant (portée 300 ft) OU est aiguë comme une souris (portée 10 ft).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000031",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        62
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pluie de Confettis Inflammables",
+      "description": "Des confettis remplissent une zone de 20 ft : jolis, inoffensifs, mais si une flamme touche la zone, ça fait un gros « POOF » sans dégâts qui dissipe les confettis.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000032",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        64
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Ombres Indépendantes",
+      "description": "Pendant 1 minute, votre ombre fait sa propre vie : elle vous fait des signes de moquerie ou mime vos ennemis.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000033",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        66
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Équilibre Absurde",
+      "description": "Vous gagnez +5 en Acrobaties pendant 10 minutes, mais vous avez l'irrésistible envie de marcher uniquement sur les lignes ou les bords du sol.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000034",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        68
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pigeon Messager Urgent",
+      "description": "Un pigeon avec des lunettes d'aviateur apparaît, vous remet une facture imaginaire de 3 po pour « usage excessif de magie », puis disparaît en fumée.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000035",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        70
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Brouillard Menthe Fraîche",
+      "description": "Un nuage de brume opaque (rayon 15 ft, *Heavily Obscured*) à l'odeur de menthe glaciale apparaît autour de vous jusqu'au début de votre prochain tour.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000036",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        72
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vitesse de Dessin Animé",
+      "description": "Lorsque vous vous déplacez ce tour, vos pieds tournent dans le vide pendant 1 seconde avec un bruit de bongo avant que vous ne fonciez à vitesse normale +10 ft.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000037",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        74
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Rire Contagieux Bref",
+      "description": "Vous et l'ennemi le plus proche éclatez d'un fou rire pendant 2 secondes (aucun effet mécanique, mais brise toute tension dramatique).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000038",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        76
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Gravité des Pièces",
+      "description": "Toutes les pièces d'or/argent dans un rayon de 20 ft s'envolent des poches et flottent en orbite autour de vous pendant 1 round avant de retomber au sol.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000039",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        78
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pousse de Moustache Instantanée",
+      "description": "Tout le monde dans un rayon de 20 ft (hommes, femmes, elfes, dragons, squelettes) gagne une magnifique moustache bouclée pendant 1 heure.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000040",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        80
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Téléportation de Politesse",
+      "description": "Vous vous téléportez de 10 ft directement derrière la créature la plus proche et ressentez le besoin de dire « Pardon ».",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000041",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        82
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Projectiles de Plumes",
+      "description": "Votre prochaine attaque à distance tire une volée de plumes de poulet spectrales au lieu de projectiles normaux (mêmes dégâts).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000042",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        83,
+        84
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Écho de Tambours",
+      "description": "Une musique de combat épique jouée par des tambours invisibles retentit autour de vous pendant 1 minute (impossible d'être surpris, impossible de se cacher).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000043",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        86
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Verre d'Eau Apparu",
+      "description": "Un verre d'eau parfaitement équilibré apparaît dans votre main libre (ou au sol). Il est frais et délicieux.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000044",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        87,
+        88
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Inversion des Couleurs",
+      "description": "Tout dans un rayon de 30 ft passe en négatif photo (noir et blanc inversés) pendant 1 round.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000045",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        90
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Saut de Puce",
+      "description": "Votre distance de saut est triplée jusqu'à la fin de votre tour, mais vous atterrissez avec un bruit de ressort « BOING ».",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000046",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        92
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Mélange des Potions / Carquois",
+      "description": "Deux petits objets non tenus dans vos sacs changent de poche tout seuls. Rien de perdu, juste du rangement chaotique.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000047",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        94
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échange d'Allégeance Visuelle",
+      "description": "Pendant 1 round, vos vêtements/armure prennent les couleurs de l'ennemi le plus proche (pure illusion cosmétique).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000048",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        95,
+        96
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Flotteur Cosmique",
+      "description": "Vous lévitez à 2 ft au-dessus du sol jusqu'à la fin de votre prochain tour (vous ignorez le terrain difficile non-magique).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000049",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Double Jet !",
+      "description": "Le chaos s'emballe : vous devez immédiatement relancer **Hocus Pocus** une seconde fois gratuitement !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT1Res000000050",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Le Silence Gênant",
+      "description": "Pendant 3 secondes, tous les sons de bataille s'arrêtent nette dans un rayon de 60 ft, remplacés par un bruit de grillon unique, puis tout reprend normalement.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "formula": "1d100",
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "sovas-bags": {
+      "hocusPocus": {
+        "order": 1,
+        "category": "chaos",
+        "label": "Chaos & Kiff-Kiff"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder"
+  }
+}

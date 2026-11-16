@@ -8,6 +8,7 @@ Module Foundry VTT (**v12–v14.370**) pour **D&D 5e (`6.1.0`, règles 2024)** r
 - **Sorcier — The Hexblade (2024)** : Aptitudes automatisées, compagnon *Accursed Specter* et sorts du *Player's Handbook*.
 - **Espèce — Pixie (2024)** : Taille *Tiny*, vol 30 ft., *Fairy Magic* (*Druidcraft*, *Faerie Fire*, *Plant Growth*) et *City Fey*.
 - **Espèce — Tabaxi (adapté 2024)** : Taille *Medium/Small*, escalade 30 ft., *Cat's Claws*, *Cat's Talent* et *Feline Agility*.
+- **Don — Hocus Pocus v2.0** : Action Bonus qui tire **1dX** (4 tables Wild Magic `1d100` : *Chaos & Kiff-Kiff*, *Pure Positif*, *Poisse Cosmique*, *Folie Arcanique*), joue des animations Sequencer/JB2A/PSFX/TokenMagic et poste une carte animée dans le chat.
 
 > **Recommandé** : activer le module `dnd-players-handbook` pour les sorts des sous-classes.
 

@@ -1,0 +1,1133 @@
+{
+  "_id": "sovahpTbl4Folie0",
+  "name": "Hocus Pocus 4 — Folie Arcanique Totale",
+  "img": "icons/magic/symbols/rune-sigil-horned-white-purple.webp",
+  "description": "Table 4 (Overdrive / Grands Enjeux) de Hocus Pocus v2.0 — 1d100.",
+  "results": [
+    {
+      "_id": "hpT4Res000000001",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Invocation de Poulet Abyssal",
+      "description": "Un poulet aux yeux rouges démoniaques (statistiques de **Vulture** ou **Cockatrice** hostile envers TOUT LE MONDE, 10 PV) apparaît à 5 ft de vous pour 1 minute.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000002",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Surcharge de Temps",
+      "description": "Vous gagnez immédiatement **1 Action complète supplémentaire** ce tour-ci, mais à la fin de ce tour vous subissez [[/r 2d6]] dégâts de Force.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000003",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échange Chaotique Général",
+      "description": "Toutes les créatures dans un rayon de 40 ft (alliés ET ennemis) changent aléatoirement de position entre elles !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000004",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bulle d'Antimagie Éclair",
+      "description": "Une zone d'*Antimagic Field* de **15 ft** centrée sur vous s'active jusqu'au début de votre prochain tour : plus aucun sort ni objet magique ne fonctionne dans la zone !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000005",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Projectiles Magiques à Tout Va",
+      "description": "6 projectiles de *Magic Missile* ([[/r 1d4 + 1]] force chacun) jaillissent de vous et frappent 6 créatures choisies **aléatoirement** à 60 ft (alliés inclus !).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000006",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Téléportation de Masse",
+      "description": "Vous et toutes les créatures dans un rayon de 10 ft êtes téléportés de [[/r 4d10]] ft dans une direction aléatoire ([[/r 1d8]]).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000007",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Métamorphose de Groupe",
+      "description": "Vous et l'ennemi le plus proche êtes tous les deux transformés en **Grenouilles Géantes** pendant 1 round (CA 11, 18 PV temporaires de forme).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000008",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        16
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pluie de Pièces Glissantes",
+      "description": "[[/r 10d10]] pièces de cuivre tombent du plafond dans un rayon de 20 ft ! Toute la zone devient glissante (JdS DEX DD 12 en entrant/bougeant ou *Prone*), et ramassables après le combat !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000009",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Double Sort / Double Effet",
+      "description": "Le dernier sort lancé ou votre prochaine action avant la fin du tour est automatiquement dupliqué sur une deuxième cible aléatoire à portée !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000010",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Portail Féerique Sauvage",
+      "description": "Un portail turquoise s'ouvre 1 round à 10 ft : 1d4 lutins invisibles en sortent, font un croche-pied à une créature aléatoire (JdS DEX DD 13 ou *Prone*), et disparaissent en riant.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000011",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Inversion des Points de Vie ?",
+      "description": "Le lanceur et l'allié (ou ennemi !) le plus proche à 15 ft échangent leur montant de **PV temporaires** (ou gagnent chacun [[/r 2d8]] PV temporaires).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000012",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        24
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Éclair en Chaîne Chaotique",
+      "description": "Un éclair ([[/r 4d8]] foudre, JdS DEX DD 14 pour moitié) frappe la créature la plus proche de vous, puis rebondit sur 2 autres cibles aléatoires à 20 ft !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000013",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        26
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Murs de Force Aléatoires",
+      "description": "Un mur de force transparent de 10x10 ft apparaît verticalement entre vous et l'ennemi le plus proche pendant 1 round.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000014",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        27,
+        28
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Explosion de Gravité Zéro",
+      "description": "Dans un rayon de 30 ft, tout le monde perd la gravité pendant 1 round (tout le monde lévite à 15 ft du sol avec vitesse de vol de 5 ft en se poussant).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000015",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        30
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Clone Illusoire Paniqué",
+      "description": "3 copies illusoires de vous apparaissent (*Mirror Image*), mais elles courent dans tous les sens en hurlant pour distraire les ennemis.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000016",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        32
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Siphon de Mana de Zone",
+      "description": "Toutes les créatures à 20 ft capables de lancer des sorts voient le niveau de leur prochain sort augmenté de +1, mais subissent [[/r 1d8]] dégâts de force.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000017",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        34
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Invocation d'un Modron Confus",
+      "description": "Un **Monodrone** apparaît, inspecte votre feuille de combat d'un air sévère, déclare « ANOMALIE DÉTECTÉE », soigne [[/r 2d6]] PV à la créature ayant le moins de PV (alliée ou ennemie) puis repart.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000018",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        35,
+        36
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Tempête de Neige Locale",
+      "description": "Une tempête de neige violente de 20 ft de rayon s'abat autour de vous pendant 2 rounds : sol glissant, visibilité réduite, et [[/r 1d6]] dégâts de froid au début de chaque tour dans la zone.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000019",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        38
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Super-Taille vs Micro-Taille",
+      "description": "Vous devenez taille **Gargantuesque (ou Huge)** pendant 1 round (+1d8 dégâts), puis redevenez normal en laissant un énorme trou dans le plancher.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000020",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        39,
+        40
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échange d'Initiative",
+      "description": "Échangez votre place dans l'ordre d'Initiative avec la créature qui joue juste après vous (ou avec le boss du combat !).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000021",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        42
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Pluie de Météores Miniatures",
+      "description": "3 petites météorites tombent sur des cases aléatoires dans un rayon de 30 ft : chacune inflige [[/r 3d6]] feu dans 5 ft (JdS DEX DD 13).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000022",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vortex Aspirant",
+      "description": "Un trou noir miniature à 15 ft aspire toutes les créatures à 25 ft de lui vers son centre (JdS FOR DD 14) puis disparaît en faisant un bruit de bouchon.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000023",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        46
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Coup de Grâce Chromatique",
+      "description": "Votre prochaine attaque inflige un type de dégâts aléatoire ([[/r 1d8]] : Feu, Froid, Foudre, Acide, Poison, Tonnerre, Force, Radiant) avec +[[/r 2d8]] dégâts bonus !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000024",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        48
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Échange d'Armes",
+      "description": "Tous les combattants à 30 ft voient l'arme qu'ils tiennent dans leur main principale se téléporter dans la main de leur voisin le plus proche à droite pour 1 round !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000025",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        50
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bénédiction du Chaos Pur",
+      "description": "Vous gagnez l'effet du sort *Haste* pendant **2 rounds** (sans léthargie ensuite !), mais votre peau change de couleur toutes les secondes.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000026",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        52
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Invocation d'Élémentaire Mineur",
+      "description": "Un petit **Mephit de Fumée** (ou de Magma) neutre apparaît à 10 ft et lance son souffle dans une direction aléatoire avant de s'évaporer.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000027",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        54
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Résonance Tonitruante",
+      "description": "Un coup de gong cosmique retentit : toutes les créatures à 30 ft (vous compris) doivent réussir un JdS CON DD 13 ou être **Étourdis (*Stunned*)** jusqu'au début de leur prochain tour ? (Non : **Assourdis** + repoussés de 10 ft et [[/r 2d8]] tonnerre).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000028",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        56
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Armes Vivantes",
+      "description": "Pendant 1 round, toutes les armes à 30 ft poussent des ailes de papillon et volent à 10 ft autour de leur porteur (utilisables normalement avec un malus de -1 ou avantage de style).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000029",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        58
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Réinitialisation d'Emplacement",
+      "description": "Tous les lanceurs de sorts (alliés ET ennemis) dans un rayon de 30 ft récupèrent 1 emplacement de sort de niveau 1 !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000030",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        59,
+        60
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Bouclier Réfléchissant de Zone",
+      "description": "Pendant 1 round, le prochain sort à cible unique lancé dans un rayon de 60 ft ricoche sur la créature la plus proche de sa cible initiale !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000031",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        62
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Transformation de Terres",
+      "description": "Un carré de 20x20 ft sous vos pieds se transforme en trampoline géant élastique pour 1 minute (+15 ft saut, mais -2 en Acrobaties).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000032",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        64
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Saut Temporel de 6 Secondes",
+      "description": "Vous disparaissez de l'espace-temps jusqu'au **début de votre prochain tour** (intouchable, immunisé à tout, puis vous réapparaissez au même endroit avec +[[/r 2d6]] PV).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000033",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        66
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Explosion de Soins & Dégâts",
+      "description": "Une onde d'énergie rouge et verte traverse 30 ft : tous vos **alliés** récupèrent [[/r 2d8]] PV, et tous vos **ennemis** subissent [[/r 2d8]] dégâts nécrotiques (JdS CON DD 14 pour moitié).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000034",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        68
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Golem de Carton",
+      "description": "Une armure animée faite entièrement de cartons de déménagement avec « FRAGILE » écrit dessus apparaît à 5 ft (25 PV, CA 12) et vous protège pendant 1 minute (donne +2 CA en abri).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000035",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        70
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Surcharge Sauvage x2",
+      "description": "Relancez **Hocus Pocus** DEUX FOIS de suite et appliquez les deux effets dans l'ordre !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000036",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        72
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Choc des Élémentaires",
+      "description": "Vous gagnez Résistance au Feu, au Froid et à la Foudre pendant 1 minute, mais toutes vos empreintes laissent de la lave inoffensive qui s'éteint en 2 secondes.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000037",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        74
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Télépathie Globale Forcée",
+      "description": "Pendant 1 minute, toutes les créatures intelligentes à 60 ft (boss compris) entendent les pensées superficielles des autres à voix haute dans leur tête !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000038",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        76
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Orbe Prismatique Mini",
+      "description": "Un rayon prismatique touche l'ennemi le plus proche : lancez [[/r 1d6]] (1=Feu, 2=Acide, 3=Foudre, 4=Poison, 5=Froid, 6=Force) pour [[/r 5d6]] dégâts (JdS DEX DD 14 pour moitié).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000039",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        78
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Inversion des Bonus/Malus",
+      "description": "Pendant 1 round, le prochain jet où quelqu'un a le Désavantage devient un Avantage, et vice-versa, dans un rayon de 30 ft.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000040",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        80
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Chute d'Objet Mystère",
+      "description": "Un objet complètement aléatoire tombe du ciel à 10 ft : [[/r 1d4]] (1=Tonneau de bière naine, 2=Enclume, 3=Coffre verrouillé avec 30 po, 4=Baignoire en fonte pleine d'eau chaude).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000041",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        82
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Dédoublement Temporaire",
+      "description": "Un double spectral de vous apparaît à 5 ft jusqu'à la fin de votre prochain tour : il vous donne l'**Flanking / Avantage** au corps à corps et disparaît ensuite.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000042",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        83,
+        84
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Aura d'Invisibilité de Zone",
+      "description": "Toutes les créatures dans un rayon de 15 ft (alliés ET ennemis) deviennent **Invisibles** jusqu'à ce qu'elles attaquent ou lancent un sort !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000043",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        86
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Miroir de Dégâts",
+      "description": "Jusqu'au début de votre prochain tour, la prochaine fois que vous subissez des dégâts, l'attaquant subit exactement **la moitié** en dégâts de Force.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000044",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        87,
+        88
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Volcan Miniature",
+      "description": "Un mini-volcan de 3 ft de haut pousse sur la case vide la plus proche et crache des étincelles pendant 1 round (lumière vive 30 ft, [[/r 2d6]] feu à quiconque commence son tour adjacent).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000045",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        90
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Changement d'Équipement Visuel",
+      "description": "Toutes les armures dans la salle deviennent des pyjamas en flanelle pendant 1 minute (aucun changement de CA, juste visuellement ridicule).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000046",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        92
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Transfert de Condition",
+      "description": "Toutes les conditions actives sur les créatures à 20 ft disparaissent ou sautent sur une cible aléatoire (au choix du MJ avec un [[/r 1d2]]).",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000047",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        94
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Éclair d'Inspiration Collective",
+      "description": "Tous les joueurs à la table gagnent **1 Point d'Inspiration**, et le MJ gagne **1 relance secrète gratuite** sur un monstre !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000048",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        95,
+        96
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Cataclysme de Plumes et d'Éclairs",
+      "description": "Une explosion de 20 ft autour de vous inflige [[/r 4d6]] dégâts de Foudre à tous les ennemis (JdS DEX DD 14 pour moitié) et transforme les cadavres ou débris en coussins.",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000049",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "Vœu de Pacotille",
+      "description": "Pendant 6 secondes, vous pouvez formuler un mini-vœu absurde d'une valeur max de 25 po (ex: une clé, un parapluie, une corde de 50 ft, une tarte) qui apparaît dans vos mains !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    },
+    {
+      "_id": "hpT4Res000000050",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        100
+      ],
+      "drawn": false,
+      "img": "icons/svg/d20-black.svg",
+      "name": "APOTHEOSE DU CHAOS !",
+      "description": "Une tornade arcanique multicolore vous enveloppe : gagnez [[/r 3d10]] PV temporaires, téléportez-vous de 30 ft, et lancez gratuitement un sort (niv. 3 max) ou 2 attaques immédiates — puis relancez sur la table **Poisse Cosmique** !",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "dnd5e",
+        "systemVersion": "6.1.0",
+        "createdTime": 1726320000000,
+        "modifiedTime": 1726320000000,
+        "lastModifiedBy": "sovasbagsbuilder"
+      }
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "formula": "1d100",
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "sovas-bags": {
+      "hocusPocus": {
+        "order": 4,
+        "category": "overdrive",
+        "label": "Folie Arcanique"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "dnd5e",
+    "systemVersion": "6.1.0",
+    "createdTime": 1726320000000,
+    "modifiedTime": 1726320000000,
+    "lastModifiedBy": "sovasbagsbuilder"
+  }
+}
