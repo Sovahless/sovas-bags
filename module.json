@@ -1,8 +1,8 @@
 {
   "id": "sovas-bags",
   "title": "Sova's Bags",
-  "description": "The ultimate collection of custom classes, subclasses, species, items, spells, and companions for D&D 5e (2024 Rules).",
-  "version": "1.3.0",
+  "description": "The ultimate collection of custom classes, subclasses, species, items, wild magic tables, and companions for D&D 5e (2024 Rules).",
+  "version": "1.4.0",
   "compatibility": {
     "minimum": "12",
     "verified": "14.370"
