@@ -42,11 +42,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplHellishReb",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplHellishReb",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplWitchBolt0",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplWitchBolt0",
               "optional": false
             }
           ],
@@ -73,11 +73,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplCrownofMad",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplCrownofMad",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplDarkness00",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDarkness00",
               "optional": false
             }
           ],
@@ -121,11 +121,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplFear000000",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplFear000000",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplSummonUnde",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSummonUnde",
               "optional": false
             }
           ],
@@ -152,11 +152,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBlight0000",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplPhantasmal",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal",
               "optional": false
             }
           ],
@@ -200,11 +200,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplContagion0",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplContagion0",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplSteelWindS",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplSteelWindS",
               "optional": false
             }
           ],

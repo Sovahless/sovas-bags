@@ -107,24 +107,6 @@
       }
     },
     {
-      "name": "sovas-bags-spells",
-      "label": "Sova's Bags: Spells",
-      "path": "packs/sovas-bags-spells",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {
-        "dnd5e": {
-          "types": [
-            "spell"
-          ]
-        }
-      }
-    },
-    {
       "name": "sovas-bags-actors",
       "label": "Sova's Bags: Actors & Companions",
       "path": "packs/sovas-bags-actors",
@@ -172,6 +154,13 @@
           "verified": "6.1.0"
         }
       }
+    ],
+    "recommends": [
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "reason": "Provides the Player's Handbook (2024) subclass spells for The Hexblade and Oathbreaker."
+      }
     ]
   },
   "url": "https://github.com/Sovahless/sovas-bags",
@@ -188,7 +177,6 @@
         "sovas-bags-species",
         "sovas-bags-features",
         "sovas-bags-items",
-        "sovas-bags-spells",
         "sovas-bags-actors"
       ]
     }

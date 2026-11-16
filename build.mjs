@@ -34,7 +34,6 @@ const PACK_MAPPINGS = [
   { src: 'src/species', dest: 'packs/sovas-bags-species', docType: 'items' },
   { src: 'src/features', dest: 'packs/sovas-bags-features', docType: 'items' },
   { src: 'src/items', dest: 'packs/sovas-bags-items', docType: 'items' },
-  { src: 'src/spells', dest: 'packs/sovas-bags-spells', docType: 'items' },
   { src: 'src/actors', dest: 'packs/sovas-bags-actors', docType: 'actors' }
 ];
 

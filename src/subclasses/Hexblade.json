@@ -42,19 +42,19 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplShield0000",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplShield0000",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplWrathfulSm",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplWrathfulSm",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBlur000000",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplBlur000000",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplShiningSmi",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplShiningSmi",
               "optional": false
             }
           ],
@@ -81,11 +81,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBlink00000",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplElementalW",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplElementalW",
               "optional": false
             }
           ],
@@ -129,11 +129,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplPhantasmal",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplPhantasmal",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplStaggering",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplStaggering",
               "optional": false
             }
           ],
@@ -160,11 +160,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplBanishingS",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplBanishingS",
               "optional": false
             },
             {
-              "uuid": "Compendium.sovas-bags.sovas-bags-spells.Item.phbsplConeofCold",
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold",
               "optional": false
             }
           ],
