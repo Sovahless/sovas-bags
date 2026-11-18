@@ -634,7 +634,7 @@
       "important": false
     }
   },
-  "img": null,
+  "img": "icons/magic/death/undead-zombie-grave-green.webp",
   "prototypeToken": {
     "name": "Zombie",
     "displayName": 20,

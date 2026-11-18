@@ -2,7 +2,7 @@
   "_id": "sovahpHocusPoc01",
   "name": "Hocus Pocus",
   "type": "feat",
-  "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+  "img": "icons/weapons/wands/wand-star-gold.webp",
   "system": {
     "description": {
       "value": "<p>Unleash an unpredictable surge of wild magic. As a <strong>Bonus Action</strong>, roll <strong>1dX</strong> (where <em>X</em> is the number of active Hocus Pocus Wild Magic tables — <strong>4 by default</strong>) to randomly select a Wild Magic table, then immediately roll <strong>1d100</strong> on that table:</p><ul><li><strong>1 — Chaos &amp; Kiff-Kiff:</strong> Chaotic neutral, absurd, and hilarious effects (mixed fortunes).</li><li><strong>2 — Bénédiction Féerique:</strong> Purely positive boons, healing, buffs, and lucky breaks.</li><li><strong>3 — Poisse Cosmique:</strong> Purely negative mishaps, backfires, and humiliating curses.</li><li><strong>4 — Folie Arcanique Totale:</strong> High-stakes overdrive magic, random summons, portals, and mass chaos.</li></ul><p><em>Automation v2.0:</em> Activating this feature automatically rolls <code>1dX</code> and <code>1d100</code>, triggers Sequencer/JB2A/PSFX/TokenMagic effects on your token when available, and posts a stylized Hocus Pocus card to chat.</p>",

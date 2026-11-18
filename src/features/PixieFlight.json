@@ -2,7 +2,7 @@
   "_id": "sovapixFlight001",
   "name": "Flight",
   "type": "feat",
-  "img": "icons/magic/control/buff-flight-wings-purple.webp",
+  "img": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
   "system": {
     "description": {
       "value": "<p>Because of your wings, you have a Flying Speed equal to your Walking Speed. You can’t use this Flying Speed if you’re wearing Medium or Heavy armor.</p>",

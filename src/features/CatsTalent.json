@@ -2,7 +2,7 @@
   "_id": "sovatbxTalent001",
   "name": "Cat's Talent",
   "type": "feat",
-  "img": "icons/creatures/mammals/cat-hunched-glowing-red.webp",
+  "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
   "system": {
     "description": {
       "value": "<p>You have proficiency in the <strong>Perception</strong> and <strong>Stealth</strong> skills.</p>",

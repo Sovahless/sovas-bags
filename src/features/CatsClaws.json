@@ -2,7 +2,7 @@
   "_id": "sovatbxClaws0001",
   "name": "Cat's Claws",
   "type": "feat",
-  "img": "icons/commodities/claws/claw-canine-brown-grey.webp",
+  "img": "icons/creatures/claws/claw-bear-paw-swipe-red.webp",
   "system": {
     "description": {
       "value": "<p>You can use your claws to make Unarmed Strikes. When you hit with them and deal damage, the strike deals <strong>1d6 + your Strength modifier</strong> Slashing damage, instead of the normal Bludgeoning damage for an Unarmed Strike.</p>",

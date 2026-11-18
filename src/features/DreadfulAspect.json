@@ -2,7 +2,7 @@
   "_id": "sovapdnDreadfulA",
   "name": "Dreadful Aspect",
   "type": "feat",
-  "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+  "img": "icons/magic/control/fear-fright-monster-grin-red-orange.webp",
   "system": {
     "description": {
       "value": "<p>Immediately after casting <em>Divine Smite</em>, you can expend one use of your Channel Divinity to unleash a wave of dread. As an action (or trigger: immediately after casting Divine Smite), each creature of your choice in a 30-foot emanation originating from you must make a Wisdom saving throw against your spell save DC. On a failed save, a creature is frightened of you for 1 minute.</p><p>The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p><section class=\"secret\" id=\"secret-dreadful-aspect\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect for the Frightened condition. Creatures repeat the saving throw at the end of their turn.</p></section>",

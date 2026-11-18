@@ -2,7 +2,7 @@
   "_id": "sovawlkMasterHex",
   "name": "Master of Hexes",
   "type": "feat",
-  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "img": "icons/magic/death/skull-energy-light-purple.webp",
   "system": {
     "description": {
       "value": "<p>You can mold your hexed curse from one creature to another. When the creature cursed by your <em>Hexblade’s Curse</em> dies, you can apply the curse to a different creature you can see within 30 feet of you (no action required), provided you aren't Incapacitated.</p><p>When you apply the curse in this way, you don't regain Hit Points from the death of the previously cursed creature.</p>",

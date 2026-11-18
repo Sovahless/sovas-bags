@@ -636,7 +636,7 @@
       "important": false
     }
   },
-  "img": null,
+  "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
   "prototypeToken": {
     "name": "Skeleton",
     "displayName": 20,
