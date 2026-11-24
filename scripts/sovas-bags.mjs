@@ -85,6 +85,35 @@ async function getHocusPocusTables() {
   });
 }
 
+async function checkAssetSrc(path) {
+  if (!path) return false;
+  const fn = foundry?.utils?.srcExists ?? globalThis.srcExists;
+  return typeof fn === "function" ? fn(path) : true;
+}
+
+async function applyTemporaryGlow(token, colorHex, filterId) {
+  if (!token || typeof TokenMagic === "undefined" || typeof TokenMagic.addUpdateFilters !== "function") return;
+  try {
+    await TokenMagic.addUpdateFilters(token, [{
+      filterType: "glow",
+      filterId,
+      outerStrength: 4.5,
+      innerStrength: 1.2,
+      color: colorHex,
+      quality: 0.5,
+      padding: 12,
+      animated: {
+        outerStrength: { active: true, loopDuration: 900, animType: "cosOscillation", val1: 2, val2: 5.5 }
+      }
+    }]);
+    setTimeout(() => {
+      TokenMagic.deleteFilters(token, filterId)?.catch?.(() => {});
+    }, 2800);
+  } catch (err) {
+    console.warn("Sova's Bags | TokenMagic glow skipped:", err);
+  }
+}
+
 async function playHocusAnimations(token, category) {
   const meta = CATEGORY_META[category] ?? CATEGORY_META.chaos;
   const center = token ? (token.getCenterPoint?.() || token.center || { x: token.x, y: token.y }) : null;
@@ -97,16 +126,10 @@ async function playHocusAnimations(token, category) {
   // Sequencer + JB2A + PSFX
   if (token && typeof Sequence !== "undefined") {
     try {
-      const checkSrc = async (p) => {
-        if (!p) return false;
-        const fn = foundry?.utils?.srcExists ?? globalThis.srcExists;
-        return typeof fn === "function" ? fn(p) : true;
-      };
-
       const seq = new Sequence();
       let hasSteps = false;
 
-      if (await checkSrc(meta.jb2aIntro)) {
+      if (await checkAssetSrc(meta.jb2aIntro)) {
         seq.effect()
           .file(meta.jb2aIntro)
           .atLocation(token)
@@ -117,12 +140,12 @@ async function playHocusAnimations(token, category) {
         hasSteps = true;
       }
 
-      if (await checkSrc(meta.sfx)) {
+      if (await checkAssetSrc(meta.sfx)) {
         seq.sound().file(meta.sfx).volume(0.65);
         hasSteps = true;
       }
 
-      if (await checkSrc(meta.jb2aMain)) {
+      if (await checkAssetSrc(meta.jb2aMain)) {
         seq.wait(350)
           .effect()
           .file(meta.jb2aMain)
@@ -133,7 +156,7 @@ async function playHocusAnimations(token, category) {
         hasSteps = true;
       }
 
-      if (await checkSrc(meta.jb2aExtra)) {
+      if (await checkAssetSrc(meta.jb2aExtra)) {
         seq.effect()
           .file(meta.jb2aExtra)
           .atLocation(token)
@@ -152,29 +175,65 @@ async function playHocusAnimations(token, category) {
     }
   }
 
-  // TokenMagic temporary aura flash
-  if (token && typeof TokenMagic !== "undefined" && typeof TokenMagic.addUpdateFilters === "function") {
-    const filterId = "sovasBagsHocusPocusGlow";
+  await applyTemporaryGlow(token, meta.colorHex, "sovasBagsHocusPocusGlow");
+}
+
+async function playEchoAnimation({ actor = null, token = null } = {}) {
+  const resolvedToken =
+    token ||
+    actor?.getActiveTokens?.(true, true)?.[0] ||
+    canvas.tokens?.controlled?.[0] ||
+    null;
+  const center = resolvedToken
+    ? (resolvedToken.getCenterPoint?.() || resolvedToken.center || { x: resolvedToken.x, y: resolvedToken.y })
+    : null;
+  const echoColor = 0x38bdf8;
+
+  if (center && typeof canvas?.ping === "function") {
+    canvas.ping(center, { color: echoColor, size: 115, duration: 1500 });
+  }
+
+  if (resolvedToken && typeof Sequence !== "undefined") {
     try {
-      await TokenMagic.addUpdateFilters(token, [{
-        filterType: "glow",
-        filterId,
-        outerStrength: 4.5,
-        innerStrength: 1.2,
-        color: meta.colorHex,
-        quality: 0.5,
-        padding: 12,
-        animated: {
-          outerStrength: { active: true, loopDuration: 900, animType: "cosOscillation", val1: 2, val2: 5.5 }
-        }
-      }]);
-      setTimeout(() => {
-        TokenMagic.deleteFilters(token, filterId)?.catch?.(() => {});
-      }, 2800);
+      const seq = new Sequence();
+      let hasSteps = false;
+      const jb2aRing = "modules/jb2a_patreon/Library/Generic/Cast/CastShapeCircle01_01_Regular_Blue_600x600.webm";
+      const jb2aBurst = "modules/jb2a_patreon/Library/Generic/Particles/ParticleBurstCircle01_01_Regular_Yellow_600x600.webm";
+      const psfxChime = "modules/psfx-patreon/library/1st-level-spells/bless/v1/bless-v1-001.ogg";
+
+      if (await checkAssetSrc(jb2aRing)) {
+        seq.effect()
+          .file(jb2aRing)
+          .atLocation(resolvedToken)
+          .scaleToObject(2.1)
+          .belowTokens()
+          .fadeIn(150)
+          .fadeOut(350);
+        hasSteps = true;
+      }
+
+      if (await checkAssetSrc(psfxChime)) {
+        seq.sound().file(psfxChime).volume(0.5);
+        hasSteps = true;
+      }
+
+      if (await checkAssetSrc(jb2aBurst)) {
+        seq.effect()
+          .file(jb2aBurst)
+          .atLocation(resolvedToken)
+          .scaleToObject(1.9)
+          .fadeIn(120)
+          .fadeOut(400);
+        hasSteps = true;
+      }
+
+      if (hasSteps) await seq.play();
     } catch (err) {
-      console.warn("Sova's Bags | TokenMagic glow skipped:", err);
+      console.warn("Sova's Bags | Echo animation skipped:", err);
     }
   }
+
+  await applyTemporaryGlow(resolvedToken, echoColor, "sovasBagsEchoGlow");
 }
 
 async function triggerHocusPocus({ actor = null, token = null } = {}) {
@@ -283,24 +342,31 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("ready", () => {
-  console.log("Sova's Bags | Ready! Subclasses, Species, and Hocus Pocus v2.0 loaded.");
+  console.log("Sova's Bags | Ready! Subclasses, Species, Hocus Pocus v2.0, and Pouvoir de l'Écho loaded.");
   const mod = game.modules.get(MODULE_ID);
   if (mod) {
     mod.api = {
       triggerHocusPocus,
-      getHocusPocusTables
+      getHocusPocusTables,
+      playEchoAnimation
     };
   }
 });
 
-// Trigger Hocus Pocus v2.0 automatically whenever the Hocus Pocus feat activity is used
+// Trigger module animations automatically when Hocus Pocus or Pouvoir de l'Écho activities are used
 Hooks.on("dnd5e.postUseActivity", (activity) => {
   const item = activity?.item;
   if (!item) return;
-  const isHocus =
-    item.system?.identifier === "hocus-pocus" ||
-    item.name?.trim().toLowerCase() === "hocus pocus";
-  if (!isHocus) return;
 
-  triggerHocusPocus({ actor: activity.actor });
+  const id = item.system?.identifier;
+  const nameLower = item.name?.trim().toLowerCase();
+
+  if (id === "hocus-pocus" || nameLower === "hocus pocus") {
+    triggerHocusPocus({ actor: activity.actor });
+    return;
+  }
+
+  if (id === "pouvoir-de-l-echo" || nameLower === "pouvoir de l'écho") {
+    playEchoAnimation({ actor: activity.actor });
+  }
 });

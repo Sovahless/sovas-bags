@@ -17,6 +17,9 @@
       "AccursedSpecter": "Accursed Specter",
       "ArmorOfHexes": "Armor of Hexes",
       "MasterOfHexes": "Master of Hexes"
+    },
+    "Echo": {
+      "Name": "Power of the Echo"
     }
   }
 }

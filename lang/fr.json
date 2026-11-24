@@ -17,6 +17,9 @@
       "AccursedSpecter": "Spectre Maudit",
       "ArmorOfHexes": "Armure de Maléfices",
       "MasterOfHexes": "Maître des Maléfices"
+    },
+    "Echo": {
+      "Name": "Pouvoir de l'Écho"
     }
   }
 }
