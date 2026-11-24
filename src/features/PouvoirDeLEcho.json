@@ -5,7 +5,7 @@
   "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
   "system": {
     "description": {
-      "value": "<p>Votre âme porte la marque singulière d'une <strong>Anomalie</strong> bénie par l'éther cristallin. Ce don gratuit de campagne s'éveille dès le <strong>Niveau 1</strong> et vous confère les aptitudes suivantes :</p><ul><li><strong>Bouclier contre la Subjugation (Passif) :</strong> Vous êtes totalement immunisé à la subjugation mentale des Primordiaux et bénéficiez de l'<strong>Avantage</strong> aux jets de sauvegarde contre les effets de <em>Charme</em> ou de <em>Domination</em> d'origine astrale ou ascianne.</li><li><strong>Polyglossie Éthérique (Passif) :</strong> Vous comprenez instinctivement le sens des paroles prononcées par toute créature ou tribu dotée d'un langage (sans savoir nécessairement lire ou écrire une langue étrangère).</li><li><strong>Visions du Passé :</strong> Au contact d'une relique, d'un cristal lunaire ou d'une personne marquante, le MJ peut vous révéler un flash mémoriel du passé ou de l'intention profonde d'une scène.</li><li><strong>Dé d'Anomalie (1/Repos Long) :</strong> Après avoir effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, ajoutez votre <strong>Dé d'Anomalie</strong> au résultat : <code>1d6</code> (niv. 1–4), <code>1d8</code> (niv. 5–10), <code>1d10</code> (niv. 11–16) ou <code>1d12</code> (niv. 17–20).</li><li><strong>Prémonition Fatale — Buff de l'Écho (1/Session, accord MJ) :</strong> Face à un coup fatal ou une défaite totale en combat majeur, le MJ peut révéler que la scène n'était qu'une vision prémonitoire : le tour reprend juste avant l'instant fatidique et vous recevez le <strong>Buff de l'Écho</strong> (<code>+1d4</code> aux jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat).</li></ul>",
+      "value": "<p>Votre âme porte la marque singulière de <strong>l'Écho</strong>, bénie par un éther cristallin d'une rare intensité. Ce don gratuit de campagne s'éveille dès le <strong>Niveau 1</strong> et vous confère les aptitudes suivantes :</p><ul><li><strong>Bouclier contre la Subjugation (Passif) :</strong> Vous êtes totalement immunisé à la subjugation mentale des Primordiaux et bénéficiez de l'<strong>Avantage</strong> aux jets de sauvegarde contre les effets de <em>Charme</em> ou de <em>Domination</em> d'origine astrale ou ascianne.</li><li><strong>Polyglossie Éthérique (Passif) :</strong> Vous comprenez instinctivement le sens des paroles prononcées par toute créature ou tribu dotée d'un langage (sans savoir nécessairement lire ou écrire une langue étrangère).</li><li><strong>Visions du Passé :</strong> Au contact d'une relique, d'un cristal lunaire ou d'une personne marquante, le MJ peut vous révéler un flash mémoriel du passé ou de l'intention profonde d'une scène.</li><li><strong>Dé de l'Écho (1/Repos Long) :</strong> Après avoir effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, ajoutez votre <strong>Dé de l'Écho</strong> au résultat : <code>1d6</code> (niv. 1–4), <code>1d8</code> (niv. 5–10), <code>1d10</code> (niv. 11–16) ou <code>1d12</code> (niv. 17–20).</li><li><strong>Prémonition Fatale — Buff de l'Écho (1/Session, accord MJ) :</strong> Face à un coup fatal ou une défaite totale en combat majeur, le MJ peut révéler que la scène n'était qu'une vision prémonitoire : le tour reprend juste avant l'instant fatidique et vous recevez le <strong>Buff de l'Écho</strong> (<code>+1d4</code> aux jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat).</li></ul>",
       "chat": ""
     },
     "source": {
@@ -40,7 +40,7 @@
     "activities": {
       "sovaechoActDie01": {
         "type": "utility",
-        "name": "Dé d'Anomalie (1d6)",
+        "name": "Dé de l'Écho (1d6)",
         "_id": "sovaechoActDie01",
         "sort": 0,
         "activation": {
@@ -109,14 +109,14 @@
         "roll": {
           "prompt": false,
           "visible": true,
-          "name": "Dé d'Anomalie (Écho)",
+          "name": "Dé de l'Écho (Écho)",
           "formula": "1d6"
         },
         "img": ""
       },
       "sovaechoActDie02": {
         "type": "utility",
-        "name": "Dé d'Anomalie (1d8)",
+        "name": "Dé de l'Écho (1d8)",
         "_id": "sovaechoActDie02",
         "sort": 1,
         "activation": {
@@ -185,14 +185,14 @@
         "roll": {
           "prompt": false,
           "visible": true,
-          "name": "Dé d'Anomalie (Écho)",
+          "name": "Dé de l'Écho (Écho)",
           "formula": "1d8"
         },
         "img": ""
       },
       "sovaechoActDie03": {
         "type": "utility",
-        "name": "Dé d'Anomalie (1d10)",
+        "name": "Dé de l'Écho (1d10)",
         "_id": "sovaechoActDie03",
         "sort": 2,
         "activation": {
@@ -261,14 +261,14 @@
         "roll": {
           "prompt": false,
           "visible": true,
-          "name": "Dé d'Anomalie (Écho)",
+          "name": "Dé de l'Écho (Écho)",
           "formula": "1d10"
         },
         "img": ""
       },
       "sovaechoActDie04": {
         "type": "utility",
-        "name": "Dé d'Anomalie (1d12)",
+        "name": "Dé de l'Écho (1d12)",
         "_id": "sovaechoActDie04",
         "sort": 3,
         "activation": {
@@ -337,7 +337,7 @@
         "roll": {
           "prompt": false,
           "visible": true,
-          "name": "Dé d'Anomalie (Écho)",
+          "name": "Dé de l'Écho (Écho)",
           "formula": "1d12"
         },
         "img": ""
