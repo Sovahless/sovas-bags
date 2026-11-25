@@ -5,7 +5,7 @@
   "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
   "system": {
     "description": {
-      "value": "<p>Votre âme porte la marque singulière de <strong>l'Écho</strong>, bénie par un éther cristallin d'une rare intensité. Ce don gratuit de campagne s'éveille dès le <strong>Niveau 1</strong> et vous confère les aptitudes suivantes :</p><ul><li><strong>Bouclier contre la Subjugation (Passif) :</strong> Vous êtes totalement immunisé à la subjugation mentale des Primordiaux et bénéficiez de l'<strong>Avantage</strong> aux jets de sauvegarde contre les effets de <em>Charme</em> ou de <em>Domination</em> d'origine astrale ou ascianne.</li><li><strong>Polyglossie Éthérique (Passif) :</strong> Vous comprenez instinctivement le sens des paroles prononcées par toute créature ou tribu dotée d'un langage (sans savoir nécessairement lire ou écrire une langue étrangère).</li><li><strong>Visions du Passé :</strong> Au contact d'une relique, d'un cristal lunaire ou d'une personne marquante, le MJ peut vous révéler un flash mémoriel du passé ou de l'intention profonde d'une scène.</li><li><strong>Dé de l'Écho (1/Repos Long) :</strong> Après avoir effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, ajoutez votre <strong>Dé de l'Écho</strong> au résultat : <code>1d6</code> (niv. 1–4), <code>1d8</code> (niv. 5–10), <code>1d10</code> (niv. 11–16) ou <code>1d12</code> (niv. 17–20).</li><li><strong>Prémonition Fatale — Buff de l'Écho (1/Session, accord MJ) :</strong> Face à un coup fatal ou une défaite totale en combat majeur, le MJ peut révéler que la scène n'était qu'une vision prémonitoire : le tour reprend juste avant l'instant fatidique et vous recevez le <strong>Buff de l'Écho</strong> (<code>+1d4</code> aux jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat).</li></ul>",
+      "value": "<p>Votre âme porte la marque singulière de <strong>l'Écho</strong>, bénie par un éther cristallin d'une rare intensité. Ce don gratuit de campagne s'éveille dès le <strong>Niveau 1</strong> et vous confère les aptitudes suivantes :</p><ul><li><strong>Bouclier contre la Subjugation (Passif) :</strong> Vous êtes totalement immunisé à la subjugation mentale des Primordiaux et bénéficiez de l'<strong>Avantage</strong> aux jets de sauvegarde contre les effets de <em>Charme</em> ou de <em>Domination</em> d'origine astrale ou ascianne.</li><li><strong>Polyglossie Éthérique (Passif) :</strong> Vous comprenez instinctivement le sens des paroles prononcées par toute créature ou tribu dotée d'un langage (sans savoir nécessairement lire ou écrire une langue étrangère).</li><li><strong>Dé de l'Écho (1/Repos Long) :</strong> Après avoir effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, ajoutez votre <strong>Dé de l'Écho</strong> au résultat : <code>1d6</code> (niv. 1–4), <code>1d8</code> (niv. 5–10), <code>1d10</code> (niv. 11–16) ou <code>1d12</code> (niv. 17–20).</li><li><strong>Sursaut de l'Écho — Buff de l'Écho (1/Session, accord MJ) :</strong> Dans un moment critique ou face à une défaite imminente, votre volonté dépasse ses limites : vous recevez le <strong>Buff de l'Écho</strong> (<code>+1d4</code> aux jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat).</li></ul>",
       "chat": ""
     },
     "source": {
@@ -344,14 +344,14 @@
       },
       "sovaechoActBuff1": {
         "type": "utility",
-        "name": "Prémonition Fatale (Buff de l'Écho +1d4)",
+        "name": "Sursaut de l'Écho (Buff de l'Écho +1d4)",
         "_id": "sovaechoActBuff1",
         "sort": 4,
         "activation": {
           "type": "special",
           "value": null,
           "override": false,
-          "condition": "Sur accord du MJ face à un coup fatal ou un wipe (1/session)"
+          "condition": "Sur accord du MJ dans un moment critique (1/session)"
         },
         "consumption": {
           "scaling": {
@@ -367,7 +367,7 @@
           ]
         },
         "description": {
-          "chatFlavor": "Ce désastre n'était qu'une vision de l'Écho ! Votre âme s'embrase (+1d4 aux jets jusqu'à la fin du combat)."
+          "chatFlavor": "Votre âme s'embrase sous l'impulsion de l'Écho (+1d4 aux jets jusqu'à la fin du combat)."
         },
         "duration": {
           "value": "10",
@@ -416,66 +416,6 @@
           "formula": ""
         },
         "img": "icons/magic/light/explosion-star-glow-blue.webp"
-      },
-      "sovaechoActVis01": {
-        "type": "utility",
-        "name": "Vision du Passé (Résonance)",
-        "_id": "sovaechoActVis01",
-        "sort": 5,
-        "activation": {
-          "type": "special",
-          "value": null,
-          "override": false,
-          "condition": "Au contact d'une relique, d'un cristal ou d'une âme marquante"
-        },
-        "consumption": {
-          "scaling": {
-            "allowed": false
-          },
-          "spellSlot": false,
-          "targets": []
-        },
-        "description": {
-          "chatFlavor": "« Écoutez... Ressentez... Pensez... » — Votre esprit plonge dans les souvenirs résiduels de l'éther."
-        },
-        "duration": {
-          "units": "inst",
-          "concentration": false,
-          "override": false
-        },
-        "effects": [],
-        "range": {
-          "override": false,
-          "units": "self",
-          "special": ""
-        },
-        "target": {
-          "template": {
-            "contiguous": false,
-            "units": "ft",
-            "type": ""
-          },
-          "affects": {
-            "choice": false,
-            "count": "",
-            "type": "self",
-            "special": ""
-          },
-          "override": false,
-          "prompt": false
-        },
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "roll": {
-          "prompt": false,
-          "visible": false,
-          "name": "",
-          "formula": ""
-        },
-        "img": ""
       }
     },
     "enchant": {},
@@ -583,7 +523,7 @@
         "expiry": "combatEnd",
         "expired": false
       },
-      "description": "<p>Guidé par une prémonition de l'Écho, vous ajoutez <strong>+1d4</strong> à tous vos jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat.</p>",
+      "description": "<p>Porté par l'élan de l'Écho, vous ajoutez <strong>+1d4</strong> à tous vos jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat.</p>",
       "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
