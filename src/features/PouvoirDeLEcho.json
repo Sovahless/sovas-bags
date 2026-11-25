@@ -5,7 +5,7 @@
   "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
   "system": {
     "description": {
-      "value": "<p>Votre âme porte la marque singulière de <strong>l'Écho</strong>, bénie par un éther cristallin d'une rare intensité. Ce don gratuit de campagne s'éveille dès le <strong>Niveau 1</strong> et vous confère les aptitudes suivantes :</p><ul><li><strong>Bouclier contre la Subjugation (Passif) :</strong> Vous êtes totalement immunisé à la subjugation mentale des Primordiaux et bénéficiez de l'<strong>Avantage</strong> aux jets de sauvegarde contre les effets de <em>Charme</em> ou de <em>Domination</em> d'origine astrale ou ascianne.</li><li><strong>Polyglossie Éthérique (Passif) :</strong> Vous comprenez instinctivement le sens des paroles prononcées par toute créature ou tribu dotée d'un langage (sans savoir nécessairement lire ou écrire une langue étrangère).</li><li><strong>Dé de l'Écho (1/Repos Long) :</strong> Après avoir effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, ajoutez votre <strong>Dé de l'Écho</strong> au résultat : <code>1d6</code> (niv. 1–4), <code>1d8</code> (niv. 5–10), <code>1d10</code> (niv. 11–16) ou <code>1d12</code> (niv. 17–20).</li><li><strong>Sursaut de l'Écho — Buff de l'Écho (1/Session, accord MJ) :</strong> Dans un moment critique ou face à une défaite imminente, votre volonté dépasse ses limites : vous recevez le <strong>Buff de l'Écho</strong> (<code>+1d4</code> aux jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat).</li></ul>",
+      "value": "<p>Votre âme porte la marque singulière de <strong>l'Écho</strong>, bénie par un éther cristallin. Ce don vous confère les aptitudes suivantes :</p><ul><li><strong>Bouclier contre la Subjugation (Passif) :</strong> Vous êtes totalement immunisé à la subjugation mentale des Primordiaux.</li><li><strong>Dé de l'Écho (1/Repos Long) :</strong> Après avoir effectué un jet d'attaque, un test de caractéristique ou un jet de sauvegarde, ajoutez votre <strong>Dé de l'Écho</strong> au résultat : <code>1d6</code> (niv. 1–4), <code>1d8</code> (niv. 5–10), <code>1d10</code> (niv. 11–16) ou <code>1d12</code> (niv. 17–20).</li><li><strong>Encaissement Fatal (1/Session) :</strong> Face à un coup fatal, lancez <code>1d20</code> : si vous obtenez un résultat au-dessus de <strong>18</strong> (<code>19–20</code>), vous regagnez <strong>1 PV</strong> et obtenez l'<strong>Avantage</strong> à tous vos jets pour votre prochain tour.</li></ul>",
       "chat": ""
     },
     "source": {
@@ -342,16 +342,16 @@
         },
         "img": ""
       },
-      "sovaechoActBuff1": {
+      "sovaechoActSurv1": {
         "type": "utility",
-        "name": "Sursaut de l'Écho (Buff de l'Écho +1d4)",
-        "_id": "sovaechoActBuff1",
+        "name": "Encaissement Fatal (1d20 > 18)",
+        "_id": "sovaechoActSurv1",
         "sort": 4,
         "activation": {
           "type": "special",
           "value": null,
           "override": false,
-          "condition": "Sur accord du MJ dans un moment critique (1/session)"
+          "condition": "Face à un coup fatal (1/session)"
         },
         "consumption": {
           "scaling": {
@@ -360,24 +360,84 @@
           "spellSlot": false,
           "targets": [
             {
-              "type": "itemUses",
+              "type": "activityUses",
               "value": "1",
               "target": ""
             }
           ]
         },
         "description": {
-          "chatFlavor": "Votre âme s'embrase sous l'impulsion de l'Écho (+1d4 aux jets jusqu'à la fin du combat)."
+          "chatFlavor": "Sur 19 ou 20 : vous survivez avec 1 PV et obtenez l'Avantage à tous vos jets pour votre prochain tour !"
         },
         "duration": {
-          "value": "10",
-          "units": "minute",
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": "1"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": true,
+          "name": "Encaissement Fatal (19–20 = Survie)",
+          "formula": "1d20"
+        },
+        "img": "icons/magic/light/explosion-star-glow-blue.webp"
+      },
+      "sovaechoActHeal1": {
+        "type": "heal",
+        "name": "Encaissement Fatal — Réussite (1 PV & Avantage)",
+        "_id": "sovaechoActHeal1",
+        "sort": 5,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "En cas de réussite (19–20) sur Encaissement Fatal"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "L'Écho vous maintient debout : +1 PV et Avantage à tous vos jets jusqu'à la fin de votre prochain tour."
+        },
+        "duration": {
+          "value": "1",
+          "units": "round",
           "concentration": false,
           "override": false
         },
         "effects": [
           {
-            "_id": "sovaechoEffBuff1",
+            "_id": "sovaechoEffSurv1",
             "level": {
               "min": null,
               "max": null
@@ -409,11 +469,21 @@
           "recovery": [],
           "max": ""
         },
-        "roll": {
-          "prompt": false,
-          "visible": false,
-          "name": "",
-          "formula": ""
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "1",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": 1
+          }
         },
         "img": "icons/magic/light/explosion-star-glow-blue.webp"
       }
@@ -425,7 +495,7 @@
   "effects": [
     {
       "_id": "sovaechoEffPass1",
-      "name": "Écho : Subjugation & Polyglossie",
+      "name": "Écho : Bouclier contre la Subjugation",
       "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
       "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovaechoPower001",
       "type": "base",
@@ -444,7 +514,7 @@
         "expiry": null,
         "expired": false
       },
-      "description": "<p>Immunité totale à la subjugation mentale d'un Primordial, Avantage aux jets de sauvegarde contre les effets de Charme ou de Domination d'origine astrale/ascianne, et compréhension instinctive des langues parlées.</p>",
+      "description": "<p>Immunité totale à la subjugation mentale des Primordiaux.</p>",
       "tint": "#ffffff",
       "transfer": true,
       "statuses": [],
@@ -472,40 +542,20 @@
       "folder": null
     },
     {
-      "_id": "sovaechoEffBuff1",
-      "name": "Buff de l'Écho (+1d4)",
+      "_id": "sovaechoEffSurv1",
+      "name": "Encaissement Fatal (Avantage)",
       "img": "icons/magic/light/explosion-star-glow-blue.webp",
       "origin": "Compendium.sovas-bags.sovas-bags-features.Item.sovaechoPower001",
       "type": "base",
       "system": {
         "changes": [
           {
-            "key": "system.rolls.attack.bonus",
-            "value": "+1d4",
+            "key": "d20",
+            "value": "1",
             "priority": null,
-            "type": "add",
+            "type": "dnd5e.advantage",
             "phase": "initial",
-            "_id": "sovaechoChgAtk01",
-            "conditions": "{}",
-            "replacement": ""
-          },
-          {
-            "key": "system.rolls.ability.check.bonus",
-            "value": "+1d4",
-            "priority": null,
-            "type": "add",
-            "phase": "initial",
-            "_id": "sovaechoChgChk01",
-            "conditions": "{}",
-            "replacement": ""
-          },
-          {
-            "key": "system.rolls.ability.save.bonus",
-            "value": "+1d4",
-            "priority": null,
-            "type": "add",
-            "phase": "initial",
-            "_id": "sovaechoChgSav01",
+            "_id": "sovaechoChgAdv01",
             "conditions": "{}",
             "replacement": ""
           }
@@ -518,12 +568,12 @@
       },
       "disabled": false,
       "duration": {
-        "value": 600,
-        "units": "seconds",
-        "expiry": "combatEnd",
+        "value": 1,
+        "units": "rounds",
+        "expiry": "turnEnd",
         "expired": false
       },
-      "description": "<p>Porté par l'élan de l'Écho, vous ajoutez <strong>+1d4</strong> à tous vos jets d'attaque, tests de caractéristique et jets de sauvegarde jusqu'à la fin du combat.</p>",
+      "description": "<p>Vous bénéficiez de l'<strong>Avantage</strong> à tous vos jets de d20 pour votre prochain tour.</p>",
       "tint": "#ffffff",
       "transfer": false,
       "statuses": [],
